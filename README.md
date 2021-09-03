@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Portfolio Website 
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+<h3 align="center">A responsive portfolio website that includes a home page with navigation to different views, Initiated: 09-03-2021 Modified:00-00-00</h3>
+<h4 align="center"> By Sofia Acosta</h4>
 
-### `yarn start`
+## Description
+It will include the following views: projects (media), events, blog, about, sign-up form, news, VAULT EP and contact. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+MVP: 
+- A functional sign up form so users can submit their email to recieve occasional news. 
+- Some sort of UI so users can navigate through content
+- Connect database to a newsletter marketing tool 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Notes September 3rd, 2021
+- I decided to build the project on React and use Mailchimp as a marketing tool to manage email subscriptions. At the moment I want to incorporate something functional and spend time on working with UI
+- I am using [https://tailwindcss.com/]() for my css framework as I want to make this website responsive.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup/Installation Requirements
+- Click on the link to my repository: [https://github.com/Sofacosta/portfolio-website]()
+- Click on the green "Code" button and copy the repository URL
+- Open your terminal and use the command `git clone https://github.com/Sofacosta/portfolio-website` into the directory you would like to clone the repository
+- Open in text editor to view code and make changes
+- Install npm
+- Type npm run start
 
-### `yarn build`
+## Known Bugs
+- none
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Javascript
+- Node Package Manager 
+- HTML
+- CSS
+- Bottstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### License
 
-### `yarn eject`
+This software is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact Information 
+Sofia Acosta sofiaacostarascon@gmail.com
