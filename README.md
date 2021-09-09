@@ -18,6 +18,8 @@ MVP:
 ## Notes September 3rd, 2021
 - I decided to build the project on React and use Mailchimp as a marketing tool to manage email subscriptions. At the moment I want to incorporate something functional and spend time on working with UI
 - I am using [https://tailwindcss.com/]() for my css framework as I want to make this website responsive.
+## Notes on September 8, 2021
+- Look at documentation and install Tailwind into the project
 
 
 ## Setup/Installation Requirements
