@@ -15,11 +15,13 @@ MVP:
 - Some sort of UI so users can navigate through content
 - Connect database to a newsletter marketing tool 
 
-## Notes September 3rd, 2021
+## Notes 
+### September 3rd, 2021
 - I decided to build the project on React and use Mailchimp as a marketing tool to manage email subscriptions. At the moment I want to incorporate something functional and spend time on working with UI
 - I am using [https://tailwindcss.com/]() for my css framework as I want to make this website responsive.
-## Notes on September 8, 2021
-- Look at documentation and install Tailwind into the project
+### September 8, 2021
+- Look at documentation and install Tailwind into project
+- Add Mailchimp form embeded code
 
 
 ## Setup/Installation Requirements
@@ -35,11 +37,12 @@ MVP:
 
 ## Technologies Used
 
+- React
 - Javascript
+- Tailwind
 - Node Package Manager 
 - HTML
 - CSS
-- Bottstrap
 
 ### License
 
