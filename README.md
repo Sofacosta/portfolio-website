@@ -12,17 +12,19 @@ It will include the following views: projects (media), events, blog, about, sign
 
 MVP: 
 - A functional sign up form so users can submit their email to recieve occasional news. 
-- Some sort of UI so users can navigate through content
-- Connect database to a newsletter marketing tool 
+- Some sort of UI so users can navigate through content.
+- Connect database to a newsletter marketing tool. 
 
 ## Notes 
 ### September 3rd, 2021
-- I decided to build the project on React and use Mailchimp as a marketing tool to manage email subscriptions. At the moment I want to incorporate something functional and spend time on working with UI
+- I decided to build the project on React and use Mailchimp as a marketing tool to manage email subscriptions. At the moment I want to incorporate something functional and spend time on working with UI.
 - I am using [https://tailwindcss.com/]() for my css framework as I want to make this website responsive.
 ### September 8, 2021
-- Look at documentation and install Tailwind into project
-- Add Mailchimp form embeded code
-
+- I looked at documentation and installed Tailwind into project.
+- I added Mailchimp's form embeded code for Newslettter. 
+### September 10, 2021
+- I spent some time looking at different websites to have an idea on how to design mine. The focus is to be professional,creative and engaging. 
+- I made a list of all the content I currently have to have a better idea on where to place it.
 
 ## Setup/Installation Requirements
 - Click on the link to my repository: [https://github.com/Sofacosta/portfolio-website]()
