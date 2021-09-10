@@ -15,6 +15,9 @@ MVP:
 - Some sort of UI so users can navigate through content
 - Connect database to a newsletter marketing tool 
 
+## Component Diagram
+![Screen Shot 2021-09-10 at 12 47 05 PM](https://user-images.githubusercontent.com/76922539/132920907-dbfc4bf4-185d-403f-95bb-23cf76f3a978.png)
+
 ## Notes 
 ### September 3rd, 2021
 - I decided to build the project on React and use Mailchimp as a marketing tool to manage email subscriptions. At the moment I want to incorporate something functional and spend time on working with UI
