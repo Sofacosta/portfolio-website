@@ -15,7 +15,7 @@ MVP:
 - Some sort of UI so users can navigate through content.
 - Connect database to a newsletter marketing tool. 
 
-## Component Diagram
+## UI Diagram
 ![Screen Shot 2021-09-10 at 12 47 05 PM](https://user-images.githubusercontent.com/76922539/132920907-dbfc4bf4-185d-403f-95bb-23cf76f3a978.png)
 
 ## Notes 
@@ -28,6 +28,12 @@ MVP:
 ### September 10, 2021
 - I spent some time looking at different websites to have an idea on how to design mine. The focus is to be professional,creative and engaging. 
 - I made a list of all the content I currently have to have a better idea on where to place it.
+### September 14, 2021
+- Fixed bug on newsletter form
+- Removed address from mailchimp's sign-up confirmation page
+- Added Google Analytics to Mailchimp
+- Made map of components
+- Add component skeleton
 
 ## Setup/Installation Requirements
 - Click on the link to my repository: [https://github.com/Sofacosta/portfolio-website]()
