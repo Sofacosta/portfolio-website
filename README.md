@@ -34,6 +34,10 @@ MVP:
 - Added Google Analytics to Mailchimp
 - Made map of components
 - Add component skeleton
+### September 16,2021
+- Install and read about React Router
+- 
+
 
 ## Setup/Installation Requirements
 - Click on the link to my repository: [https://github.com/Sofacosta/portfolio-website]()
