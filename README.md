@@ -36,7 +36,7 @@ MVP:
 - Add component skeleton
 ### September 16,2021
 - Install and read about React Router
-- 
+- Add routing links for nav bar
 
 
 ## Setup/Installation Requirements
