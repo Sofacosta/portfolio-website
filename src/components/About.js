@@ -4,6 +4,7 @@ const About = () => {
   return (
     <>
       {/* do stuff */}
+      <h1>About</h1>
     </>
   )
 }

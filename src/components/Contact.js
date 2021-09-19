@@ -4,6 +4,7 @@ const Contact = () => {
   return (
     <>
       {/* do stuff */}
+      <h1>Contact</h1>
     </>
   )
 }

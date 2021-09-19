@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <>
       {/* do stuff */}
+      <h1>Home</h1>
     </>
   )
 }

@@ -4,6 +4,7 @@ const Events = () => {
   return (
     <>
       {/* do stuff */}
+      <h1>Events</h1>
     </>
   )
 }

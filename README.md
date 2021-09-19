@@ -37,7 +37,8 @@ MVP:
 ### September 16,2021
 - Install and read about React Router
 - Add routing links for nav bar
-
+### September 19,2021
+- Add routings to each link in nav bar 
 
 ## Setup/Installation Requirements
 - Click on the link to my repository: [https://github.com/Sofacosta/portfolio-website]()
@@ -58,6 +59,7 @@ MVP:
 - Node Package Manager 
 - HTML
 - CSS
+- React-router
 
 ### License
 

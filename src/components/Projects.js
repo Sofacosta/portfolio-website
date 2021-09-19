@@ -4,6 +4,7 @@ const Projects = () => {
   return (
     <>
       {/* do stuff */}
+      <h1>Projects</h1>
     </>
   )
 }
