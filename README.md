@@ -39,6 +39,9 @@ MVP:
 - Add routing links for nav bar
 ### September 19,2021
 - Add routings to each link in nav bar 
+### September 20, 2021
+- Read documentation for using Tailwind to style the nav bar
+- Refactor nav bar code
 
 ## Setup/Installation Requirements
 - Click on the link to my repository: [https://github.com/Sofacosta/portfolio-website]()

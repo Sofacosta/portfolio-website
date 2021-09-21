@@ -13,10 +13,9 @@ import '../index.css';
 
 const App = () => {
   return (
-    <>
+    <div className="container">
       <header>
-        <h1 className= "text-xl font-medium text-primary">Sofia Acosta</h1>
-        <h2 className="text-gray-500">This is my portfolio website</h2>
+        <h1 className= "text-xl font-medium text-primary">Coast2c Lab</h1>
       </header>
 
       <Router>
@@ -42,7 +41,7 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }  
 export default App;
