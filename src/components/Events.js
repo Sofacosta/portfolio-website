@@ -1,10 +1,12 @@
 import React from 'react';
+import Event from './Event';
 
+import { events } from '../data/events';
 const Events = () => {
   return (
     <>
-      {/* do stuff */}
-      <h1>Events</h1>
+      <h2>Events</h2>
+      {events.map((event) => <Event />)}
     </>
   )
 }
