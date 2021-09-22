@@ -42,6 +42,10 @@ MVP:
 ### September 20, 2021
 - Read documentation for using Tailwind to style the nav bar
 - Refactor nav bar code
+- Create an event component mockup. Think of doing research in other sites to see what events can look like.
+### September 21, 2021
+- Added Events structure 
+
 
 ## Setup/Installation Requirements
 - Click on the link to my repository: [https://github.com/Sofacosta/portfolio-website]()
