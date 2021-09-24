@@ -9,37 +9,38 @@ import Nav from "./Nav";
 import Newsletter  from './Newsletter';
 import Projects from './Projects';
 import '../styles/App.css'
-
-import '../index.css';
+import '../tailwindImports.css';
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="container mx-auto my-10 max-w-xxl" style={{border: '1px solid red'}}>
       <header>
-        <h1 className= "text-xl font-medium text-primary">Coast2c Lab</h1>
+        <h1 className="text-xl font-medium text-primary">Coast2c Lab</h1>
       </header>
       <Router>
         <Nav />
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/events">
-            <Events />
-          </Route>
-          <Route path="/newsletter">
-            <Newsletter />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <div style={{border: '1px solid blue'}}>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/events">
+              <Events />
+            </Route>
+            <Route path="/newsletter">
+              <Newsletter />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
       </Router>
     </div>
   );

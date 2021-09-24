@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavItem = (props) => {
   const { path, name } = props;
   return (
-    <li className="flex-auto">
+    <li className="pr-8">
       <Link to={path}>{name}</Link>
     </li> 
   )

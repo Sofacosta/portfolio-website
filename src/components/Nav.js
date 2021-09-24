@@ -5,8 +5,8 @@ import { navItems } from '../data/navItems';
 
 const Nav = () => {
   return (
-    <nav className="px-8 py-12">
-      <ul className="flex flex-row">
+    <nav className="py-12">
+      <ul className="flex justify-start">
         {navItems && 
           navItems.map((item) => {
             const { path, name } = item; 
