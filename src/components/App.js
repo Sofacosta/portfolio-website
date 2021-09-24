@@ -8,6 +8,7 @@ import Home from "./Home";
 import Nav from "./Nav";
 import Newsletter  from './Newsletter';
 import Projects from './Projects';
+import '../styles/App.css'
 
 import '../index.css';
 
@@ -17,7 +18,6 @@ const App = () => {
       <header>
         <h1 className= "text-xl font-medium text-primary">Coast2c Lab</h1>
       </header>
-
       <Router>
         <Nav />
         <Switch>
