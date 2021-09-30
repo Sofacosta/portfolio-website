@@ -2,9 +2,7 @@ import React from 'react';
 
 const Videos = () => {
   return (
-    <>
-      {/* do stuff */}
-    </>
+    <h1 className="text-white">Videos</h1>
   )
 }
 

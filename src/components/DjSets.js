@@ -2,9 +2,7 @@ import React from 'react';
 
 const DjSets = () => {
   return (
-    <>
-      {/* do stuff */}
-    </>
+    <h1 className="text-white">DJ Sets</h1>
   )
 }
 

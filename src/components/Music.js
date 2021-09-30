@@ -2,9 +2,7 @@ import React from 'react';
 
 const Music = () => {
   return (
-    <>
-      {/* do stuff */}
-    </>
+    <h1 className="text-white">Music</h1>
   )
 }
 

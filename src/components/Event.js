@@ -4,7 +4,7 @@ const Event = (props) => {
   const { event, isListView } = props;
   const { id, title, subtitle, date, location, price, shortDescription, htmlDescription, infoUrl, buyUrl, thumbnail, originalImg } = event;
   return (
-  <div id={id} className={isListView ? "event event-list-item" : "event event-expanded"}>
+  <div id={id} className={isListView ? "event event-list-item text-white" : "event event-expanded text-white"}>
     <img className={isListView ? "event-thumbnail" : "event-hero"} src={isListView ? thumbnail : originalImg} alt="" />
     <h2>{title}</h2>
     {(subtitle && !isListView) && <h3>{subtitle}</h3>}
