@@ -6,7 +6,7 @@ import '../styles/Nav.css';
 
 const Nav = () => {
   return (
-    <nav className="py-12">
+    <nav className="pt-2.5 inline-block">
       <ul className="flex justify-start">
         {navItems && 
           navItems.map((item) => {
