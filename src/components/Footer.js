@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <>
       {/* do stuff */}
+      <i class="fab fa-facebook"></i>
     </>
   )
 }

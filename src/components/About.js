@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <>
-      <img src="//placekitten.com/1200/450" alt="Coast2P" />
+      <img src="/assets/images/SofiaAcosta_026LRcredit_CarlyDiaz.jpg" alt="Coast2P" />
       <div className="max-w-xl mx-auto pt-4">
         <p className="text-white justify-center py-4">
         Sofia Acosta is a multidisciplinary artist focusing on sound, DJing and visual arts.  Sofia composes electronic music that oscillates between acid, drone and experimental techno. Fluent in a multitude of rhythmic styles, her DJ sets are eclectic and highly energetic, ranging from noisy techno, acid house and synth punk.</p>
