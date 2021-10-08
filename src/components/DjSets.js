@@ -2,7 +2,7 @@ import React from 'react';
 
 const DjSets = () => {
   return (
-    <h1 className="text-white">DJ Sets</h1>
+    <h2 className="text-white text-2xl">DJ Sets</h2>
   )
 }
 

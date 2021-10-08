@@ -1,6 +1,6 @@
 export const navItems = [
   {path: "/", name: "Home"},
-  {path: "/projects", name: "Projects", children: [
+  {path: null, name: "Projects", children: [
     {path: "/videos", name: "Video"}, 
     {path: "/music", name: "Music"},
     {path: "/paintings", name: "Paintings"},

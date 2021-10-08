@@ -6,7 +6,6 @@ import Contact from './Contact';
 import Events from './Events';
 import Home from "./Home";
 import Newsletter  from './Newsletter';
-import Projects from './Projects';
 import Videos from './Videos';
 import Music from './Music';
 import Paintings from './Paintings';
@@ -26,9 +25,6 @@ const Routes = () => {
       </Route>
       <Route path="/newsletter">
         <Newsletter />
-      </Route>
-      <Route path="/projects">
-        <Projects />
       </Route>
       <Route path="/videos">
         <Videos />

@@ -3,8 +3,8 @@ import React from 'react';
 const Contact = () => {
   return (
     <>
-      {/* do stuff */}
-      <h1 className="text-white">Contact</h1>
+      <h2 className="text-white text-2xl">Contact Me At:</h2>
+      <div className="text-center py-12"><em><a className="text-white" href="mailto:sofia@coast2c.me">Sofia@coast2c.me</a></em></div>
     </>
   )
 }

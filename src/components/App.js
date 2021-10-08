@@ -16,7 +16,9 @@ const App = () => {
           <h1 className="text-5xl font-medium text-white inline-block">Coast2c Lab</h1>
           <Nav />
         </header>
-        <Routes />
+        <div className="mx-auto pt-8 pb-12 max-w-3xl">
+          <Routes />
+          </div>
         <Footer />
       </Router>
     </div>

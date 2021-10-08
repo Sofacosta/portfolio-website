@@ -2,7 +2,7 @@ import React from 'react';
 
 const Paintings = () => {
   return (
-    <h1 className="text-white">Paintings</h1>
+    <h2 className="text-white text-2xl">Paintings</h2>
   )
 }
 

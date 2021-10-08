@@ -2,6 +2,7 @@ nav li {
  display: block;
  position: relative;
  transition-duration: 0.5s;
+ 
 }
 nav li a {
   color: white;
@@ -10,6 +11,10 @@ nav li a {
 
 nav li:hover > a {
   color: #aeaeae;
+}
+
+nav ul li {
+  background-color: #212121;
 }
 
 nav li:hover {
