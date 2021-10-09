@@ -67,6 +67,8 @@ MVP:
 - HTML
 - CSS
 - React-router
+- Font Awesome
+- Flip Card React
 
 ### License
 
