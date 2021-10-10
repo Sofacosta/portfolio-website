@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const SocialMediaLink = (props) => {
+function SocialMediaLink(props) {
   const { path, icon } = props;
   return (
-    <a href={path}><FontAwesomeIcon icon={icon} /></a>
+    <a className="text-3xl" href={path}><FontAwesomeIcon icon={icon} /></a>
   )
 }
 

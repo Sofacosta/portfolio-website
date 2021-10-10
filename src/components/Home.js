@@ -25,8 +25,6 @@ const Home = () => {
   const [isSixCardFlipped, setIsSixCardFlipped] = useState(false);
   const isSixCardFlippedHandler = () => setIsSixCardFlipped(!isSixCardFlipped);
 
-
-
   return (
     <>
       <div className="flex flex-wrap">
