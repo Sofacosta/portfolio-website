@@ -8,11 +8,8 @@ function SixFrontContent() {
 function SixBackContent() {
   return (
     <div>
-      <h3>Coast2c rompiendola en Latvia</h3>
-      <img src="http://placekitten.com/300/200" alt="kitties" />
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita repudiandae doloribus ea dolor eaque soluta sint aliquam facere quam exercitationem quia, modi minima iusto cum consectetur error aspernatur laboriosam sequi.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, veniam! Cum ut perferendis optio itaque consequuntur ipsa blanditiis, error voluptatem quidem architecto, quo quas illo! At doloribus recusandae consequuntur ratione.</p>
-      <a href="https://kontaktor.lv">Kontaktor</a>
+      <p>COUNTERCLOCKWISE includes samples of beats, field recordings, vocalizations, and instrumentations from an exciting selection of musicians, poets and artists. The samples on COUNTERCLOCKWISE are open source, so you can use them however you want. That said, it’s cool to give the artists credit, and if money is involved, fair payment. COUNTERCLOCKWISE was created as a companion sample tape to be used with the HC-TT. </p>
+      <a href="https://www.landscape.fm/counterclockwise">BUY HERE</a>
     </div>
   );
 }

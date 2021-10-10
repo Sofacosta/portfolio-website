@@ -4,11 +4,11 @@
 
 </div>
 
-<h3 align="center">A responsive portfolio website that includes a home page with navigation to different views, Initiated: 09-03-2021 Modified:00-00-00</h3>
+<h3 align="center">A responsive artist portfolio website. Initiated: 09-03-2021 Modified:10-08-2021</h3>
 <h4 align="center"> By Sofia Acosta</h4>
 
 ## Description
-It will include the following views: projects (media), events, blog, about, sign-up form, news, VAULT EP and contact. 
+A portfolio website built with React. 
 
 MVP: 
 - A functional sign up form so users can submit their email to recieve occasional news. 
@@ -45,8 +45,6 @@ MVP:
 - Create an event component mockup. Think of doing research in other sites to see what events can look like.
 ### September 21, 2021
 - Added Events structure 
-
-
 ## Setup/Installation Requirements
 - Click on the link to my repository: [https://github.com/Sofacosta/portfolio-website]()
 - Click on the green "Code" button and copy the repository URL
