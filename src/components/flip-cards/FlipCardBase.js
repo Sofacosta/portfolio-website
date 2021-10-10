@@ -3,12 +3,14 @@ const cardStyle = {
   border: "solid 1px",
   borderRadius: 5,
   color: "#fff",
-  width: 300
+  width: 300,
+  height: 300,
+  overflowY: 'scroll'
 };
 
-const FlipCardBase = (props) => {
+function FlipCardBase(props) {
   return (
-  <div className="text-white" style={{...cardStyle}}>
+  <div className="text-white mx-4 my-4" style={{...cardStyle}}>
     {props.content}
   </div>);
 }

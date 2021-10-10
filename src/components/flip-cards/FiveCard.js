@@ -1,6 +1,6 @@
 import FlipCardBase from "./FlipCardBase"
 
-function FrontContent() {
+function FiveFrontContent() {
   return (
     <div>
       <h3>Coast2c rompiendola en Latvia</h3>
@@ -11,7 +11,7 @@ function FrontContent() {
     </div>
   );
 }
-function BackContent() {
+function FiveBackContent() {
   return (
     <div>
       <h3>Coast2c rompiendola en Latvia</h3>
@@ -23,5 +23,5 @@ function BackContent() {
   );
 }
 
-export function TestCardFront() { return <FlipCardBase content={<FrontContent />} /> };
-export function TestCardBack() { return <FlipCardBase content={<BackContent />} /> };
+export function FiveCardFront() { return <FlipCardBase content={<FiveFrontContent />} /> };
+export function FiveCardBack() { return <FlipCardBase content={<FiveBackContent />} /> };
