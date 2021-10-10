@@ -2,7 +2,7 @@ import FlipCardBase from "./FlipCardBase"
 
 function ThreeFrontContent() {
   return (
-    <img className="object-cover" src="/assets/images/Resident-advisor.png" alt="Resident advisor"/>
+    <img className="object-cover w-full" src="/assets/images/Resident-advisor.png" alt="Resident advisor"/>
   );
 }
 function ThreeBackContent() {
