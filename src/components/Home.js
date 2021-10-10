@@ -29,7 +29,6 @@ const Home = () => {
 
   return (
     <>
-      <h2 className="text-white text-2xl">Home</h2>
       <div className="flex flex-wrap">
         <div onClick={isTestCardFlippedHandler}>
           <ReactCardFlip isFlipped={isTestCardFlipped}>
