@@ -7,7 +7,7 @@ export const navItems = [
     {path: "/dj-sets", name: "DJ Sets"}
   ]},
   {path: "/about", name: "About"},
-  {path: "/newsletter", name: "Newsletter"},
+  // {path: "/newsletter", name: "Newsletter"},
   {path: "/events", name: "Events"},
   {path: "/contact", name: "Contact"},
 ];

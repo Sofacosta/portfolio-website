@@ -10,13 +10,13 @@ import '../tailwindImports.css';
 
 const App = () => {
   return (
-    <div className="container mx-auto my-10 max-w-5xl">
+    <div className="container mx-auto my-10 max-w-5xl p-0">
       <Router>
         <header className="flex justify-between pb-12">
           <h1 className="text-5xl font-medium text-white inline-block">Coast2c Lab</h1>
           <Nav />
         </header>
-        <div className="mx-auto pt-8 pb-12 max-w-3xl">
+        <div className="mx-auto pt-8 pb-12 max-w-5xl">
           <Routes />
           </div>
         <Footer />

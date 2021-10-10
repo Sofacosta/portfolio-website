@@ -1,8 +1,5 @@
 const cardStyle = {
-  padding: 25,
-  border: "solid 1px",
   borderRadius: 5,
-  color: "#fff",
   width: 300,
   height: 300,
   overflowY: 'scroll'

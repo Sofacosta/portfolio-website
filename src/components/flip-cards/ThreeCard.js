@@ -2,23 +2,18 @@ import FlipCardBase from "./FlipCardBase"
 
 function ThreeFrontContent() {
   return (
-    <div>
-      <h3>Coast2c rompiendola en Latvia</h3>
-      <img src="http://placekitten.com/200/300" alt="kitties" />
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita repudiandae doloribus ea dolor eaque soluta sint aliquam facere quam exercitationem quia, modi minima iusto cum consectetur error aspernatur laboriosam sequi.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, veniam! Cum ut perferendis optio itaque consequuntur ipsa blanditiis, error voluptatem quidem architecto, quo quas illo! At doloribus recusandae consequuntur ratione.</p>
-      <a href="https://kontaktor.lv">Kontaktor</a>
-    </div>
+    <img className="object-cover" src="/assets/images/Resident-advisor.png" alt="Resident advisor"/>
   );
 }
 function ThreeBackContent() {
   return (
     <div>
-      <h3>Coast2c rompiendola en Latvia</h3>
-      <img src="http://placekitten.com/300/200" alt="kitties" />
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita repudiandae doloribus ea dolor eaque soluta sint aliquam facere quam exercitationem quia, modi minima iusto cum consectetur error aspernatur laboriosam sequi.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, veniam! Cum ut perferendis optio itaque consequuntur ipsa blanditiis, error voluptatem quidem architecto, quo quas illo! At doloribus recusandae consequuntur ratione.</p>
-      <a href="https://kontaktor.lv">Kontaktor</a>
+      <h3>Critics Roundtable</h3> 
+      <p>Standout electronic music from March and April 2021</p>
+      <p>The Critics Roundtable gives writers and artists a chance to go in-depth on their highlights in electronic music from the year thus far. This month, Martha Pazienti-Caidan talks with artist and producer Vivian Oparah and Nyshka Chandran, a Resident Advisor staff writer. 
+      Each contributor shares a standout album released in March and April, such as VRBA's Willow Scythe and Smerz's debut for XL Recordings, and an artist who's exciting them at the moment, including acts like Coast2c, Voldy Moyo and Ceebeaats.    
+
+      The guests also share an initiative from the broader electronic music landscape that's impressed them recently, such as Ho Chi Minh City club The Observatory's new journalism platform, Ifeoluwa's growing archive of dance music history (you can contribute at dancemusicarchives@gmail.com), and the Don't Call It A Comeback campaign. </p>
     </div>
   );
 }
