@@ -3,7 +3,7 @@ export const navItems = [
   {path: null, name: "Projects", children: [
     {path: "/videos", name: "Video"}, 
     {path: "/music", name: "Music"},
-    {path: "/paintings", name: "Paintings"},
+    {path: "/vaultEp", name: "VaultEp"},
     {path: "/dj-sets", name: "DJ Sets"}
   ]},
   {path: "/about", name: "About"},

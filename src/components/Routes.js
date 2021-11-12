@@ -8,7 +8,7 @@ import Home from "./Home";
 import Newsletter  from './Newsletter';
 import Videos from './Videos';
 import Music from './Music';
-import Paintings from './Paintings';
+import Paintings from './VaultEp';
 import DjSets from './DjSets';
 
 const Routes = () => {
@@ -32,7 +32,7 @@ const Routes = () => {
       <Route path="/music">
         <Music />
       </Route>
-      <Route path="/paintings">
+      <Route path="/vaultep">
         <Paintings />
       </Route>
       <Route path="/dj-sets">
