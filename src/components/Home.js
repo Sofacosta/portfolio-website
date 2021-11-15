@@ -27,6 +27,7 @@ const Home = () => {
 
   return (
     <>
+      <img src="/assets/images/coast2c2.png" alt="Coast2c" />
       <div className="flex flex-wrap">
         <div onClick={isTestCardFlippedHandler}>
           <ReactCardFlip isFlipped={isTestCardFlipped}>
