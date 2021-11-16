@@ -8,15 +8,16 @@ const Nav = () => {
   return (
     <nav className="pt-2.5 inline-block">
       <ul className="flex justify-start">
-        {navItems && 
+        {navItems &&
           navItems.map((item) => {
-            const { path, name, children } = item; 
-            return <NavItem path={path} name={name} children={children} key={name} />
-          })
-        }
+            const { path, name, children } = item;
+            return (
+              <NavItem path={path} name={name} children={children} key={name} />
+            );
+          })}
       </ul>
     </nav>
-  )
-}
+  );
+};
 
 export default Nav;

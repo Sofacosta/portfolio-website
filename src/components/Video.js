@@ -10,7 +10,7 @@ function Video(props) {
       <ReactPlayer url={url} />
       <p className="text-white mt-6 mb-12">{ReactHtmlParser(description)}</p>
     </>
-  )
+  );
 }
 
 export default Video;

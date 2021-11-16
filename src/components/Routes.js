@@ -1,11 +1,11 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route } from 'react-router-dom';
 
 import About from './About';
 import Contact from './Contact';
 import Events from './Events';
-import Home from "./Home";
-import Newsletter  from './Newsletter';
+import Home from './Home';
+import Newsletter from './Newsletter';
 import Videos from './Videos';
 import Music from './Music';
 import Paintings from './VaultEp';
@@ -42,7 +42,7 @@ const Routes = () => {
         <Home />
       </Route>
     </Switch>
-  )
-}
+  );
+};
 
 export default Routes;

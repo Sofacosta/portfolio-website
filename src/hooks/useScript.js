@@ -16,7 +16,6 @@ const useScript = (url, attrs) => {
         for (const [key, value] of Object.entries(attr)) {
           script[key] = value;
         }
-        
       }
     }
 
@@ -24,7 +23,7 @@ const useScript = (url, attrs) => {
 
     return () => {
       document.body.removeChild(script);
-    }
+    };
   }, [url, attrs]);
 };
 

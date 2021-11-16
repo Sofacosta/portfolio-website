@@ -17,7 +17,6 @@ const useJsonScript = (data, attrs) => {
         for (const [key, value] of Object.entries(attr)) {
           script[key] = value;
         }
-        
       }
     }
 
@@ -25,7 +24,7 @@ const useJsonScript = (data, attrs) => {
 
     return () => {
       document.body.removeChild(script);
-    }
+    };
   }, [data, attrs]);
 };
 
