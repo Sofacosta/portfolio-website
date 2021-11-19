@@ -4,7 +4,7 @@ function SixFrontContent() {
   return (
     <img
       className="object-cover h-full"
-      src="/assets/images/Landscape.png"
+      src="/assets/images/counterclockwise.jpeg"
       alt="Landscape"
     />
   );

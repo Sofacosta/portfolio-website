@@ -1,6 +1,6 @@
 import FlipCardBase from './FlipCardBase';
 
-function FrontContent() {
+function VirtualSynthFrontContent() {
   return (
     <img
       className="object-cover h-full"
@@ -9,7 +9,7 @@ function FrontContent() {
     />
   );
 }
-function BackContent() {
+function VirtualSynthBackContent() {
   return (
     <div>
       <h3 className="text-2xl mb-4">Virtual Synth</h3>
@@ -49,9 +49,9 @@ function BackContent() {
   );
 }
 
-export function TestCardFront() {
-  return <FlipCardBase content={<FrontContent />} />;
+export function VirtualSynthCardFront() {
+  return <FlipCardBase content={<VirtualSynthFrontContent />} />;
 }
-export function TestCardBack() {
-  return <FlipCardBase content={<BackContent />} />;
+export function VirtualSynthCardBack() {
+  return <FlipCardBase content={<VirtualSynthBackContent />} />;
 }

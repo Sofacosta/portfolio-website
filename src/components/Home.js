@@ -2,29 +2,29 @@ import React, { useState } from 'react';
 
 import ReactCardFlip from 'react-card-flip';
 
-import { TestCardBack, TestCardFront } from './flip-cards/TestCard';
+import { VirtualSynthCardBack, VirtualSynthCardFront } from './flip-cards/VirtualSynth';
 import { VaultCardBack, VaultCardFront } from './flip-cards/VaultCard';
-import { ThreeCardBack, ThreeCardFront } from './flip-cards/ThreeCard';
+import { ResidentAdvisorCardBack, ResidentAdvisorCardFront } from './flip-cards/ResidentAdvisorCard';
 import { FourCardBack, FourCardFront } from './flip-cards/FourCard';
-import { FiveCardBack, FiveCardFront } from './flip-cards/FiveCard';
+import { GravitySpheresCardBack, GravitySpheresCardFront } from './flip-cards/GravitySpheres';
 import { SixCardBack, SixCardFront } from './flip-cards/SixCard';
 
 const Home = () => {
-  const [isTestCardFlipped, setIsTestCardFlipped] = useState(false);
-  const isTestCardFlippedHandler = () =>
-    setIsTestCardFlipped(!isTestCardFlipped);
+  const [isVirtualSynthCardFlipped, setIsVirtualSynthCardFlipped] = useState(false);
+  const isVirtualSynthCardFlippedHandler = () =>
+    setIsVirtualSynthCardFlipped(!isVirtualSynthCardFlipped);
   const [isVaultCardFlipped, setIsVaultCardFlipped] = useState(false);
   const isVaultCardFlippedHandler = () =>
     setIsVaultCardFlipped(!isVaultCardFlipped);
-  const [isThreeCardFlipped, setIsThreeCardFlipped] = useState(false);
-  const isThreeCardFlippedHandler = () =>
-    setIsThreeCardFlipped(!isThreeCardFlipped);
+  const [isResidentAdvisorCardFlipped, setIsResidentAdvisorCardFlipped] = useState(false);
+  const isResidentAdvisorCardFlippedHandler = () =>
+    setIsResidentAdvisorCardFlipped(!isResidentAdvisorCardFlipped);
   const [isFourCardFlipped, setIsFourCardFlipped] = useState(false);
   const isFourCardFlippedHandler = () =>
     setIsFourCardFlipped(!isFourCardFlipped);
-  const [isFiveCardFlipped, setIsFiveCardFlipped] = useState(false);
-  const isFiveCardFlippedHandler = () =>
-    setIsFiveCardFlipped(!isFiveCardFlipped);
+  const [isGravitySpheresCardFlipped, setIsGravitySpheresCardFlipped] = useState(false);
+  const isGravitySpheresCardFlippedHandler = () =>
+    setIsGravitySpheresCardFlipped(!isGravitySpheresCardFlipped);
   const [isSixCardFlipped, setIsSixCardFlipped] = useState(false);
   const isSixCardFlippedHandler = () => setIsSixCardFlipped(!isSixCardFlipped);
 
@@ -38,10 +38,10 @@ const Home = () => {
         <hr></hr>
       </div>
       <div className="flex flex-wrap">
-        <div onClick={isTestCardFlippedHandler}>
-          <ReactCardFlip isFlipped={isTestCardFlipped}>
-            <TestCardFront />
-            <TestCardBack />
+        <div onClick={isVirtualSynthCardFlippedHandler}>
+          <ReactCardFlip isFlipped={isVirtualSynthCardFlipped}>
+            <VirtualSynthCardFront />
+            <VirtualSynthCardBack />
           </ReactCardFlip>
         </div>
         <div onClick={isVaultCardFlippedHandler}>
@@ -50,10 +50,10 @@ const Home = () => {
             <VaultCardBack />
           </ReactCardFlip>
         </div>
-        <div onClick={isThreeCardFlippedHandler}>
-          <ReactCardFlip isFlipped={isThreeCardFlipped}>
-            <ThreeCardFront />
-            <ThreeCardBack />
+        <div onClick={isResidentAdvisorCardFlippedHandler}>
+          <ReactCardFlip isFlipped={isResidentAdvisorCardFlipped}>
+            <ResidentAdvisorCardFront />
+            <ResidentAdvisorCardBack />
           </ReactCardFlip>
         </div>
         <div onClick={isFourCardFlippedHandler}>
@@ -62,10 +62,10 @@ const Home = () => {
             <FourCardBack />
           </ReactCardFlip>
         </div>
-        <div onClick={isFiveCardFlippedHandler}>
-          <ReactCardFlip isFlipped={isFiveCardFlipped}>
-            <FiveCardFront />
-            <FiveCardBack />
+        <div onClick={isGravitySpheresCardFlippedHandler}>
+          <ReactCardFlip isFlipped={isGravitySpheresCardFlipped}>
+            <GravitySpheresCardFront />
+            <GravitySpheresCardBack />
           </ReactCardFlip>
         </div>
         <div onClick={isSixCardFlippedHandler}>

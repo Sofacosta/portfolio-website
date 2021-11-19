@@ -1,6 +1,6 @@
 import FlipCardBase from './FlipCardBase';
 
-function ThreeFrontContent() {
+function ResidentAdvisorFrontContent() {
   return (
     <img
       className="object-cover w-full"
@@ -9,7 +9,7 @@ function ThreeFrontContent() {
     />
   );
 }
-function ThreeBackContent() {
+function ResidentAdvisorBackContent() {
   return (
     <div>
       <h3>Critics Roundtable</h3>
@@ -33,9 +33,9 @@ function ThreeBackContent() {
   );
 }
 
-export function ThreeCardFront() {
-  return <FlipCardBase content={<ThreeFrontContent />} />;
+export function ResidentAdvisorCardFront() {
+  return <FlipCardBase content={<ResidentAdvisorFrontContent />} />;
 }
-export function ThreeCardBack() {
-  return <FlipCardBase content={<ThreeBackContent />} />;
+export function ResidentAdvisorCardBack() {
+  return <FlipCardBase content={<ResidentAdvisorBackContent />} />;
 }
