@@ -10,6 +10,9 @@
 ## Description
 This is a work in progress personal artist website.
 
+## Preview
+![Screen Shot 2021-11-20 at 2 17 30 PM](https://user-images.githubusercontent.com/76922539/142740015-865e89bb-00f2-4b69-9d68-88ffdea23664.png)
+
 ## Setup/Installation Requirements
 - Clone the repo `git clone https://github.com/Sofacosta/portfolio-website`
 - Install node modules `npm install`
