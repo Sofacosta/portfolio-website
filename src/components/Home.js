@@ -31,12 +31,9 @@ const Home = () => {
   return (
     <>
       <img src="/assets/images/coast2c2.png" alt="Coast2c" />
-      <div className="max-w-xl mx-auto pt-4">
-        <p className="text-white justify-center py-4">
-          Photo by Alexander Pomper
-        </p>
-        <hr></hr>
-      </div>
+      <p className="text-white justify-center py-4 text-xs">
+        Photo by Alexander Pomper
+      </p>
       <div className="flex flex-wrap">
         <div onClick={isVirtualSynthCardFlippedHandler}>
           <ReactCardFlip isFlipped={isVirtualSynthCardFlipped}>

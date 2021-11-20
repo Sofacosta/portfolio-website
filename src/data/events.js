@@ -12,8 +12,8 @@ export const events = [
       '<p>The second edition of KONTAKTOR took place on 31st of May 2019 in Riga Electrical Machine Building Works.</p> <p>Music and contemporary culture media FACT Magazine writes – Riga really reminds of Berlin, but not the Berlin of 2019. It reminds of the the city back in the early 2000s, when the music scene was fractured, dangerous and urgent. It’s an example of a local scene that’s growing quickly and KONTAKTOR is a festival that is amplifying and elevating its community, as well as exposing it to art from outside their frame of reference.</p>',
     infoUrl: 'https://kontaktor.lv/kontaktor-2019/',
     buyUrl: '',
-    thumbnail: 'https://placekitten.com/150/150',
-    originalImg: 'https://placekitten.com/1000/350',
+    thumbnail: '/assets/images/kontaktor.jpeg',
+    originalImg: '/assets/images/kontaktor.jpeg',
   },
   {
     id: 2,

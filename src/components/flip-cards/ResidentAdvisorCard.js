@@ -2,11 +2,13 @@ import FlipCardBase from './FlipCardBase';
 
 function ResidentAdvisorFrontContent() {
   return (
-    <img
-      className="object-cover w-full"
-      src="/assets/images/Resident-advisor.png"
-      alt="Resident advisor"
-    />
+    <div>
+      <img
+        className="object-cover"
+        src="/assets/images/Resident-advisor.png"
+        alt="Resident advisor"
+      />
+    </div>
   );
 }
 function ResidentAdvisorBackContent() {

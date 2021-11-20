@@ -18,7 +18,7 @@ const App = () => {
             </h1>
             <Nav />
           </header>
-          <main className="mx-auto pt-8 pb-12 max-w-5xl flex-auto">
+          <main className="mx-auto pb-12 max-w-5xl flex-auto">
             <Routes />
           </main>
           <Footer />

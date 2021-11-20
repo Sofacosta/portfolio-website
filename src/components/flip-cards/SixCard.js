@@ -3,7 +3,7 @@ import FlipCardBase from './FlipCardBase';
 function SixFrontContent() {
   return (
     <img
-      className="object-cover h-full"
+      className="object-cover"
       src="/assets/images/counterclockwise.jpeg"
       alt="Landscape"
     />
