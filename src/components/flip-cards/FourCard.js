@@ -17,7 +17,7 @@ function FourBackContent() {
         experiments from the growing synth community in Mexico city. This show
         is presented by Síntesis con Leo. 25-oct-19{' '}
       </p>
-      <a href="https://www.mixcloud.com/ThreadsRadio/analogtitlan-w-leo-mendez-threadsmexico-city-25-oct-19/" target="_blank rel="nonreferrer noopener>
+      <a href="https://www.mixcloud.com/ThreadsRadio/analogtitlan-w-leo-mendez-threadsmexico-city-25-oct-19/" target="_blank" rel="noreferrer">
         Listen here
       </a>
     </div>

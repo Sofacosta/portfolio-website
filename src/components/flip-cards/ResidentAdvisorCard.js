@@ -16,7 +16,7 @@ function ResidentAdvisorBackContent() {
     <div>
       <p>
       {' '}
-        <a href="https://ra.co/exchange/556" target="_blank rel="nonreferrer noopener> The Critics Roundtable </a> gives writers and artists a chance to go in-depth
+        <a href="https://ra.co/exchange/556" target="_blank" rel="noreferrer"> The Critics Roundtable </a> gives writers and artists a chance to go in-depth
         on their highlights in electronic music from the year thus far. This
         month, Martha Pazienti-Caidan talks with artist and producer Vivian
         Oparah and Nyshka Chandran, a Resident Advisor staff writer. Each

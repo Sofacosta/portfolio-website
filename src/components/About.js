@@ -3,11 +3,11 @@ import React from 'react';
 const About = () => {
   return (
     <>
-      <img
-        src="/assets/images/SofiaAcosta_026LRcredit_CarlyDiaz.jpg"
-        alt="Coast2P"
-      />
-      <div className="max-w-xl mx-auto pt-4">
+      <div className="mx-auto pt-4">
+        <img
+          src="/assets/images/SofiaAcosta_026LRcredit_CarlyDiaz.jpg"
+          alt="Coast2P"
+        />
         <p className="text-white justify-center py-4">
           Sofia Acosta is a multidisciplinary artist focusing on sound, DJing
           and visual arts. Sofia composes electronic music that oscillates

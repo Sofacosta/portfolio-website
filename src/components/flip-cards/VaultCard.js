@@ -26,9 +26,9 @@ function VaultBackContent() {
         Released on Gestef Records, January 2021
       </p>
       <p> Vault has received great feedback from outlets such as: 
-        <a href="https://ra.co/exchange/556" target="_blank rel="nonreferrer noopener> Resident advisor </a>, 
-        <a href="https://filtermexico.com/2021/01/27/coast2c-explora-el-minimalismo-del-drone-y-el-techno-en-vault/" target="_blank rel="nonreferrer noopener> Filter Mexico </a>,  
-        <a href="https://www.youtube.com/watch?v=REBfhwf9UHk" target="_blank rel="nonreferrer noopener> Hate Lab </a>, amongst others.
+        <a href="https://ra.co/exchange/556" target="_blank" rel="noreferrer"> Resident advisor </a>, 
+        <a href="https://filtermexico.com/2021/01/27/coast2c-explora-el-minimalismo-del-drone-y-el-techno-en-vault/" target="_blank" rel="noreferrer"> Filter Mexico </a>,  
+        <a href="https://www.youtube.com/watch?v=REBfhwf9UHk" target="_blank" rel="noreferrer"> Hate Lab </a>, amongst others.
       </p>
     </div>
   );

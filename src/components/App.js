@@ -4,8 +4,8 @@ import Footer from './Footer';
 import Nav from './Nav';
 import Routes from './Routes';
 
-import '../styles/App.css';
 import '../tailwindImports.css';
+import '../styles/App.css';
 
 const App = () => {
   return (
