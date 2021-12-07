@@ -14,7 +14,8 @@ function VaultFrontContent() {
 function VaultBackContent() {
   return (
     <div>
-      <p>
+      <p>You can purchase and listen to Vault by {' '}
+        <a href="https://coast2c.bandcamp.com/album/vault"> clicking here. </a> 
         Vault starts with an hypnotic acid drone piece with “Bones”, a one-take
         live recording of several different synths, followed by “Time is Not
         Linear”, an exploration of loops created by the evocative sound of
@@ -24,7 +25,11 @@ function VaultBackContent() {
         Mastering by Mateo González Bufi Additional Mixing by Sofia Acosta
         Released on Gestef Records, January 2021
       </p>
-      <a href="https://kontaktor.lv">Kontaktor</a>
+      <p> Vault has received great feedback from outlets such as: 
+        <a href="https://ra.co/exchange/556" target="_blank rel="nonreferrer noopener> Resident advisor </a>, 
+        <a href="https://filtermexico.com/2021/01/27/coast2c-explora-el-minimalismo-del-drone-y-el-techno-en-vault/" target="_blank rel="nonreferrer noopener> Filter Mexico </a>,  
+        <a href="https://www.youtube.com/watch?v=REBfhwf9UHk" target="_blank rel="nonreferrer noopener> Hate Lab </a>, amongst others.
+      </p>
     </div>
   );
 }

@@ -21,7 +21,7 @@ function SixBackContent() {
         COUNTERCLOCKWISE was created as a companion sample tape to be used with
         the HC-TT.{' '}
       </p>
-      <a href="https://www.landscape.fm/counterclockwise">BUY HERE</a>
+      <a href="https://www.landscape.fm/counterclockwise" target="_blank rel="nonreferrer noopener>BUY HERE</a>
     </div>
   );
 }
