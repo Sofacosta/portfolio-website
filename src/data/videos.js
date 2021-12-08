@@ -1,6 +1,12 @@
 export const videos = [
   {
-    title: 'Kontaktor',
+    title: 'Kinowatt Film Festival 2021',
+    url: 'https://www.youtube.com/watch?v=3RELBpccQf0',
+    description:
+      'My performance and panel discussion at Kinowatt Film Festival for University of Pennsylvania and The Annenberg Center for the Performing Arts.',
+  },
+  {
+    title: 'Kontaktor 2019',
     url: 'https://www.youtube.com/watch?v=U9Al3POAzvU',
     description:
       'Kontaktor is Erica Synths  music festival presenting forward-pushing live electronic music ranging from left-field techno, seminal electro, to nonconformist industrial, bizarre noise and everything in between. I presented a live modular synth set in <a href="https://kontaktor.lv/kontaktor-2019"> Phase II.</a>',

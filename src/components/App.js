@@ -14,7 +14,7 @@ const App = () => {
         <Router>
           <header className="flex justify-between py-12">
             <h1 className="text-5xl font-medium text-white inline-block">
-              Coast2c Lab
+              Coast2c
             </h1>
             <Nav />
           </header>
