@@ -4,13 +4,9 @@ nav li {
  transition-duration: 0.5s;
  
 }
+
 nav li a {
   color: white;
-  transition-duration: 0.5s;
-}
-
-nav li:hover > a {
-  color: #aeaeae;
 }
 
 nav ul li {

@@ -8,6 +8,20 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}
+
+a {
+  text-decoration: underline;
+  transition: filter ease-in-out .25s;
+}
+
+a:hover {
+  filter: brightness(75%);
+}
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);

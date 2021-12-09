@@ -13,7 +13,7 @@ const NavItem = (props) => {
                 const { name, path } = childNavItem;
                 return (
                   <li className="py-0.5" key={path}>
-                    <Link to={path}>{name}</Link>
+                    <Link className="no-underline" to={path}>{name}</Link>
                   </li>
                 )
               }
@@ -22,7 +22,7 @@ const NavItem = (props) => {
           </ul>
         </>
       ) : (
-        <Link to={path}>{name}</Link>
+        <Link className="no-underline" to={path}>{name}</Link>
       )}
     </li>
   );

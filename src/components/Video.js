@@ -1,7 +1,7 @@
 import ReactPlayer from 'react-player';
 import ReactHtmlParser from 'react-html-parser';
 
-import '../styles/Video.css';
+import '../styles/ReactPlayer.css';
 
 function Video(props) {
   const { title, url, description } = props;

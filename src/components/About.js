@@ -3,6 +3,9 @@ import React from 'react';
 const About = () => {
   return (
     <>
+      <div>
+        <h2 className="text-white text-4xl mb-12">About</h2>
+      </div>
       <div className="mx-auto pt-4">
         <img
           src="/assets/images/SofiaAcosta_026LRcredit_CarlyDiaz.jpg"
@@ -28,17 +31,14 @@ const About = () => {
         </p>
 
         <p className="text-white justify-center py-4">
-          Her sound, visual and audio/visual work has been presented&nbsp;in
-          several galleries and art shows including Portland Art Museum, Jordan
-          Schnitzer Museum of Art, SWAB Barcelona art fair and S1.{' '}
-        </p>
-
-        <p className="text-white justify-center py-4">
           Sofia's music has been released on a variety of labels including{' '}
           <a href="https://soundcloud.com/ransom-note-records/sets/graintable-universal-ash-1">
-            Ransom Note
+            Ransom Note,
           </a>{' '}
-          and <a href="https://blankstairs.bandcamp.com/">Blankstairs</a>.
+          <a href="https://blankstairs.bandcamp.com/">Blankstairs</a> and {' '}
+          <a href="https://coast2ckm.bandcamp.com/track/mente-maleable?label=273540382&tab=music">Krater Music.</a> 
+          
+
         </p>
       </div>
     </>
