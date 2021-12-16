@@ -1,7 +1,7 @@
 export const events = [
   {
     id: 1,
-    title: 'Sisters with Transistors performance and panel 2021',
+    title: 'Sisters with Transistors Performance and Panel 2021',
     subtitle: 'Screened during KINOWATT Film Festival',
     date: new Date('06/14/21'),
     location: 'University of Pennsylvania',
@@ -9,8 +9,8 @@ export const events = [
     htmlDescription: '<p> 5/4 Woman in technology workshop.Tschechisches Zentrum, Berlin. Superbooth 18 - 5/5 Coastc, Zufu and Hexorcismos. Loftus Hall, Berlin. - 5/9 Metamachine Fest, Prague. - 5/10 Opening Synth Library. Prague. - 5/11 Coast2c, Nick Klein and Myako. Herna, Brno. - 5/17 Fluc + Fluc Wanne, Viena. - 5/18 Yucatan, Vilnus. - 5/25 EMS Residency, Stockholm. - 6/2 Kontaktor Post Factum. Depo, Riga. - 6/5 Berlin Community Radio, Berlin.   </p>',
     infoUrl: 'https://music.sas.upenn.edu/events/2021/03/31/sisters-transistors-conversation-director-lisa-rovner-emmy-parker-special',
     buyUrl: '',
-    thumbnail: '/assets/images/europe-tour.png',
-    originalImg: '/assets/images/europe-tour.png',
+    thumbnail: '/assets/images/sisters-transistors.jpg',
+    originalImg: '/assets/images/sisters-transistors.jpg',
   },
   {
     id: 2,

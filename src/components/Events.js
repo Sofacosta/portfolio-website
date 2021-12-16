@@ -2,6 +2,9 @@ import React from 'react';
 import Event from './Event';
 
 import { events } from '../data/events';
+
+import '../styles/Events.css';
+
 const Events = () => {
   const upcomingEvents = events.filter((event) => event.date > new Date());
   const pastEvents = events.filter((event) => event.date < new Date());
@@ -13,7 +16,7 @@ const Events = () => {
           <Event event={event} isListView={false} key={event.id} />
         ))
       ) : (
-        <p className="text-white my-12 text-center">
+        <p className="fancy-text">
           <em>No upcoming events at the moment, check back soon!</em>
         </p>
       )}

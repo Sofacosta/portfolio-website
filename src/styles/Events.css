@@ -1,0 +1,23 @@
+
+.fancy-text {
+  font-size: 2em;
+  color: transparent;
+  text-transform: uppercase;
+  background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #f39c12);
+  -webkit-background-clip: text;
+  animation: animate 5s linear infinite;
+  -webkit-background-size: 500%;
+  text-align: center;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}

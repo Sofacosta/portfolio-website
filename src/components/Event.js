@@ -62,7 +62,7 @@ const Event = (props) => {
             <strong>Price:</strong> {`$${price}`}
           </p>
         )}
-        {shortDescription && !isListView && (
+        {shortDescription && isListView && (
           <p className="mt-4">{shortDescription}</p>
         )}
         {htmlDescription && !isListView && (
