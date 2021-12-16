@@ -35,8 +35,8 @@ function ResidentAdvisorBackContent() {
 }
 
 export function ResidentAdvisorCardFront() {
-  return <FlipCardBase content={<ResidentAdvisorFrontContent />} />;
+  return <FlipCardBase content={<ResidentAdvisorFrontContent />} isFront={true} />;
 }
 export function ResidentAdvisorCardBack() {
-  return <FlipCardBase content={<ResidentAdvisorBackContent />} />;
+  return <FlipCardBase content={<ResidentAdvisorBackContent />} isFront={false} />;
 }

@@ -21,7 +21,7 @@ const Events = () => {
       <h2 className="text-white text-4xl my-12">Past Events</h2>
       {pastEvents &&
         pastEvents.map((event) => (
-          <Event event={event} isListView={false} key={event.id} />
+          <Event event={event} isListView={true} key={event.id} />
         ))}
     </>
   );

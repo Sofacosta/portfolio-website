@@ -35,8 +35,8 @@ function VaultBackContent() {
 }
 
 export function VaultCardFront() {
-  return <FlipCardBase content={<VaultFrontContent />} />;
+  return <FlipCardBase content={<VaultFrontContent />} isFront={true} />;
 }
 export function VaultCardBack() {
-  return <FlipCardBase content={<VaultBackContent />} />;
+  return <FlipCardBase content={<VaultBackContent />} isFront={false} />;
 }

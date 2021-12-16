@@ -25,8 +25,8 @@ function FourBackContent() {
 }
 
 export function FourCardFront() {
-  return <FlipCardBase content={<FourFrontContent />} />;
+  return <FlipCardBase content={<FourFrontContent />} isFront={true} />;
 }
 export function FourCardBack() {
-  return <FlipCardBase content={<FourBackContent />} />;
+  return <FlipCardBase content={<FourBackContent />} isFront={false} />;
 }

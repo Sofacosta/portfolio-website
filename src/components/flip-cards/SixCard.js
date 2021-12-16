@@ -27,8 +27,8 @@ function SixBackContent() {
 }
 
 export function SixCardFront() {
-  return <FlipCardBase content={<SixFrontContent />} />;
+  return <FlipCardBase content={<SixFrontContent />} isFront={true} />;
 }
 export function SixCardBack() {
-  return <FlipCardBase content={<SixBackContent />} />;
+  return <FlipCardBase content={<SixBackContent />} isFront={false} />;
 }

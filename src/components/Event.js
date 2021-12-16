@@ -1,5 +1,7 @@
 import ReactHtmlParser from 'react-html-parser';
 
+import '../styles/Event.css';
+
 const Event = (props) => {
   const { event, isListView } = props;
   const {
@@ -23,21 +25,26 @@ const Event = (props) => {
         id={id}
         className={
           isListView
-            ? 'event event-list-item text-white'
+            ? 'event event-list-item text-white mb-8'
             : 'event event-expanded text-white'
         }
       >
-        <h2 className="text-2xl my-2">{title}</h2>
+        <div className="mb-6">
+          <h2 className="text-2xl my-2">{title}</h2>
         {subtitle && !isListView && (
           <h3 className="text-lg mb-1">{subtitle}</h3>
         )}
-        {thumbnail && originalImg && (
-          <img
-            className={isListView ? 'event-thumbnail mb-4' : 'event-hero mb-4'}
+        </div>
+        
+        <div className={isListView ? 'flex' : ''}>
+          {thumbnail && originalImg && (
+            <img
+            className={isListView ? 'event-thumbnail mr-6' : 'event-hero mb-6'}
             src={isListView ? thumbnail : originalImg}
             alt=""
           />
         )}
+        <div>
         <p>
           <strong>Date:</strong>{' '}
           {date.toLocaleDateString(navigator.language, {
@@ -52,7 +59,7 @@ const Event = (props) => {
         </p>
         {price && !isListView && (
           <p>
-            <strong>Price:</strong> ${price}
+            <strong>Price:</strong> {`$${price}`}
           </p>
         )}
         {shortDescription && !isListView && (
@@ -71,6 +78,8 @@ const Event = (props) => {
             Buy Tickets
           </a>
         )}
+        </div>
+        </div>
       </div>
     </>
   );

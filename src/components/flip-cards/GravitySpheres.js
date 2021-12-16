@@ -20,8 +20,8 @@ function GravitySpheresBackContent() {
 }
 
 export function GravitySpheresCardFront() {
-  return <FlipCardBase content={<GravitySpheresFrontContent />} />;
+  return <FlipCardBase content={<GravitySpheresFrontContent />} isFront={true} />;
 }
 export function GravitySpheresCardBack() {
-  return <FlipCardBase content={<GravitySpheresBackContent />} />;
+  return <FlipCardBase content={<GravitySpheresBackContent />} isFront={false} />;
 }

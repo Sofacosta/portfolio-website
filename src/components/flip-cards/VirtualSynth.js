@@ -50,8 +50,8 @@ function VirtualSynthBackContent() {
 }
 
 export function VirtualSynthCardFront() {
-  return <FlipCardBase content={<VirtualSynthFrontContent />} />;
+  return <FlipCardBase content={<VirtualSynthFrontContent />} isFront={true} />;
 }
 export function VirtualSynthCardBack() {
-  return <FlipCardBase content={<VirtualSynthBackContent />} />;
+  return <FlipCardBase content={<VirtualSynthBackContent />} isFront={false} />;
 }

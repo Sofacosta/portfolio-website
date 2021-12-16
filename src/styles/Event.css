@@ -1,0 +1,14 @@
+.event-thumbnail {
+  border: 1px solid #ddd;
+  border-radious: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+.event-hero {
+  position: relative;
+  width: 400px;     
+  height: 500px;
+  overflow: hidden;
+}
+
