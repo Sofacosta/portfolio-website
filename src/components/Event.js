@@ -68,7 +68,7 @@ const Event = (props) => {
         {htmlDescription && !isListView && (
           <span>{ReactHtmlParser(htmlDescription)}</span>
         )}
-        {infoUrl && !isListView && (
+        {infoUrl && isListView && (
           <a className="info-url" href={infoUrl}>
             {infoUrl}
           </a>
