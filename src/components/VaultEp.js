@@ -30,18 +30,18 @@ const VaultEp = () => {
           noise. The EP ends with the title track “Vault”, which layers live
           acid sounds on top of the drums.
         </p>
-        <br></br>
-        <hr></hr>
+        <br />
+        <hr />
         <p className="text-white mx-auto justify-center py-4">
           Vault EP was released on January 26, 2021 receiving very positive feedback from different outlets:
           <ul>
-            <li><Link target="_blank" to={{ pathname: "https://ra.co/exchange/556" }}>Resident advisor</Link></li>
-            <li><Link target="_blank" to={{ pathname: "https://filtermexico.com/2021/01/27/coast2c-explora-el-minimalismo-del-drone-y-el-techno-en-vault/" }}>Filter Mexico</Link></li>
-            <li><Link target="_blank" to={{ pathname: "https://www.youtube.com/watch?v=REBfhwf9UHk" }}>Hate Lab</Link></li>
-            <li><Link target="_blank" to={{ pathname: "https://coldexperiment.com/news/coast2c-vault/" }}>Cold Experiment</Link></li>
-            <li><Link target="_blank" to={{ pathname: "https://www.techclubbers.com/coast2c-vaul-ep-gestef-records/" }}>Tech Clubbers</Link></li>
-            <li><Link target="_blank" to={{ pathname: "http://wickedstyle.neural.it/2020/12/coast2c-vault/" }}>Wicked Style</Link></li>
-            <li><Link target="_blank" to={{ pathname: "https://soundcloud.com/thebrvtalistxx/coast2c-time-is-not-linear-gestef-records" }}>The Brvtalist</Link></li>
+            <li><a href="https://ra.co/exchange/556" target="_blank" rel="noreferrer">Resident advisor</a></li>
+            <li><a href="https://filtermexico.com/2021/01/27/coast2c-explora-el-minimalismo-del-drone-y-el-techno-en-vault/" target="_blank" rel="noreferrer">Filter Mexico</a></li>
+            <li><a href="https://www.youtube.com/watch?v=REBfhwf9UHk" target="_blank" rel="noreferrer">Hate Lab</a></li>
+            <li><a href="https://coldexperiment.com/news/coast2c-vault/" target="_blank" rel="noreferrer">Cold Experiment</a></li>
+            <li><a href="https://www.techclubbers.com/coast2c-vaul-ep-gestef-records/" target="_blank" rel="noreferrer">Tech Clubbers</a></li>
+            <li><a href="http://wickedstyle.neural.it/2020/12/coast2c-vault/" target="_blank" rel="noreferrer">Wicked Style</a></li>
+            <li><a href="https://soundcloud.com/thebrvtalistxx/coast2c-time-is-not-linear-gestef-records" target="_blank" rel="noreferrer">The Brvtalist</a></li>
           </ul>
         </p>
       </div>
