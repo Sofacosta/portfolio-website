@@ -19,13 +19,13 @@ const Release = (props) => {
         <Link
           className="no-underline text-2xl border-2 border-white rounded-lg p-2"
           target="_blank"
-          to={{ pathname: {buyUrl} }}
+          to={{ pathname: buyUrl }}
         >
           Buy | Listen
         </Link>
       </div>
       <img
-        class="my-12"
+        className="my-12 object-cover h-auto w-full"
         src={originalImg}
         alt="VaultEP"
       />
