@@ -9,11 +9,12 @@ const NavItem = (props) => {
           <span className="text-white">{name}</span>
           <ul className="child-navigation pt-0">
             {children.map(
-              (childNavItem) => {
+              (childNavItem, index) => {
                 const { name, path } = childNavItem;
+                const isLastItem = index === children.length - 1;
                 return (
-                  <li className="py-0.5" key={path}>
-                    <Link className="no-underline" to={path}>{name}</Link>
+                  <li className={`py-0.5 relative -left-4 ${isLastItem ? 'pb-2' : ''}`}  key={path}>
+                    <Link className="px-4 no-underline" to={path}>{name}</Link>
                   </li>
                 )
               }
