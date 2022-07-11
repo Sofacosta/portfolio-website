@@ -3,7 +3,7 @@ export const videos = [
     title: 'Kinowatt Film Festival 2021',
     url: 'https://www.youtube.com/watch?v=3RELBpccQf0',
     description:
-      'My performance and panel discussion at Kinowatt Film Festival for University of Pennsylvania and The Annenberg Center for the Performing Arts.',
+      'Performance and panel discussion at Kinowatt Film Festival for University of Pennsylvania and The Annenberg Center for the Performing Arts.',
   },
   {
     title: 'Kontaktor 2019',

@@ -22,8 +22,7 @@ function VaultBackContent() {
         modular synthesizers. “Cornelius” plays with textures, samples and
         noise. The EP ends with the title track “Vault”, which layers live acid
         sounds on top of drum machines. Produced by Sofia Acosta Mixing and
-        Mastering by Mateo González Bufi Additional Mixing by Sofia Acosta
-        Released on Gestef Records, January 2021
+        Mastering by Mateo González Bufi. Released on Gestef Records, January 2021
       </p>
       <p> Vault has received great feedback from outlets such as: 
         <a href="https://ra.co/exchange/556" target="_blank" rel="noreferrer"> Resident advisor </a>, 

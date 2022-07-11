@@ -25,7 +25,7 @@ const Newsletter = () => {
               name="EMAIL"
               className="email"
               id="mce-EMAIL"
-              placeholder="email address"
+              placeholder="Your email address"
               required
             />
             <div
