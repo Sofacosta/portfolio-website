@@ -17,7 +17,7 @@ const Events = () => {
         ))
       ) : (
         <p className="fancy-text">
-          <em>No upcoming events at the moment, check back soon!</em>
+          <em>Agosto 27 - TBC, CDMX. More info soon</em>
         </p>
       )}
 

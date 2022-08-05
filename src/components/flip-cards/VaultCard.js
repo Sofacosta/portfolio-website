@@ -15,7 +15,7 @@ function VaultBackContent() {
   return (
     <div>
       <p>You can purchase and listen to Vault by {' '}
-        <a href="https://coast2c.bandcamp.com/album/vault"> clicking here. </a> 
+        <a href="https://coast2c.bandcamp.com/album/vault"target="_blank" rel="noreferrer"> clicking here. </a> 
         Vault starts with an hypnotic acid drone piece with “Bones”, a one-take
         live recording of several different synths, followed by “Time is Not
         Linear”, an exploration of loops created by the evocative sound of

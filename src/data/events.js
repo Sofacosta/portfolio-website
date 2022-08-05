@@ -39,4 +39,5 @@ export const events = [
     thumbnail: '/assets/images/europe-tour.png',
     originalImg: '/assets/images/europe-tour.png',
   },
+  
 ];
