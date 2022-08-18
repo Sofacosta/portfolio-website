@@ -9,7 +9,7 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div className="container mx-auto my-0 max-w-5xl p-0">
+    <div className="container mx-auto my-0 max-w-5xl py-0 px-6">
       <div className="flex flex-col min-h-screen justify-between">
         <Router>
           <header className="flex justify-between py-12">

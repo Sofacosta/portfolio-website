@@ -15,7 +15,7 @@ const About = () => {
           Sofia Acosta is a multidisciplinary artist and technologist. Under the alias Coast2c, she is a DJ and composes electronic music that oscillates
           between acid, drone and techno. Fluent in a multitude of
           rhythmic styles, her DJ sets are eclectic and highly energetic,
-          ranging from noisy techno, acid house and synth punk. 
+          ranging from techno, acid house and synth punk. 
         </p>
 
         <p className="text-white justify-center py-4">

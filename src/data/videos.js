@@ -1,15 +1,15 @@
 export const videos = [
   {
-    title: 'Kinowatt Film Festival 2021',
-    url: 'https://www.youtube.com/watch?v=3RELBpccQf0',
+    title: 'Modular World',
+    url: 'https://www.youtube.com/watch?v=7Gx6aCv0OqA',
     description:
-      'Performance and panel discussion at Kinowatt Film Festival for University of Pennsylvania and The Annenberg Center for the Performing Arts.',
+      'My participation at Modular World 8/7/22, a Live-stream event celebrating the global modular community. Created and hosted by Johno Wells.',
   },
   {
-    title: 'Kontaktor 2019',
-    url: 'https://www.youtube.com/watch?v=U9Al3POAzvU',
+    title: 'Live - Pierce b and Coast2c',
+    url: 'https://www.youtube.com/watch?v=bV_UATaGpuE&t=572s',
     description:
-      'Kontaktor is Erica Synths  music festival presenting forward-pushing live electronic music ranging from left-field techno, seminal electro, to nonconformist industrial, bizarre noise and everything in between. I presented a live modular synth set in <a href="https://kontaktor.lv/kontaktor-2019"> Phase II.</a>',
+      'Video I made with processing and music from live electronic jam session with Pierce b.',
   },
   {
     title: 'Obsidian Pulse',
@@ -28,5 +28,17 @@ export const videos = [
     url: 'https://www.youtube.com/watch?v=Asy8ELWY4Tc',
     description:
       'This is a sketch made in Processing with original music. The sketch represents a group of ideas from movies, essays, podcasts and music that I have encountered regarding feminism, technology, gender and identity.   • The text is from one of the opening phrases from Donna Haraway’s essay: The Cyborg Manifesto.   “A cyborg is a cybernetic organism, a hybrid of machine and organism, a creature of social reality as well as a creature of fiction. Social reality is lived social relations, our most important political construction, a world-changing fiction”.  • The cyborg animation is a clip from artist Marco De Archangelis’ video Making of Cyborg – Making of Shell. This clip depicts the Artist’s interpretation of the opening scene of Ghost in the Shell by Kōkaku Kidōtai.   Source Youtube: Daz3D – Making of Cyborg – Making of Shell   • All sound is created with modular synthesizers. The spoken words are a sample from the XX Files Radio podcast: Made in Residence.   Source Soundcloud: XX Files Radio Made in Residence: (Dis) Embodied Voice. Femenisms, technology, space + time / soundscapes, curation, pirate radio + noise. @xxfilesradio',
+  },
+  {
+    title: 'Kinowatt Film Festival 2021',
+    url: 'https://www.youtube.com/watch?v=3RELBpccQf0',
+    description:
+      'Performance and panel discussion at Kinowatt Film Festival for University of Pennsylvania and The Annenberg Center for the Performing Arts.',
+  },
+  {
+    title: 'Kontaktor 2019',
+    url: 'https://www.youtube.com/watch?v=U9Al3POAzvU',
+    description:
+      'Kontaktor is Erica Synths  music festival presenting forward-pushing live electronic music ranging from left-field techno, seminal electro, to nonconformist industrial, bizarre noise and everything in between. I presented a live modular synth set in <a href="https://kontaktor.lv/kontaktor-2019"> Phase II.</a>',
   },
 ];
