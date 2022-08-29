@@ -13,7 +13,7 @@ function GravitySpheresBackContent() {
   return (
     <div>
       <p>
-      This is one of the first sketches I made with Processing. I was really proud of it as I was able to figure out how to make the spheres interact with one another practicing conditionals. Here is the sketch in <a href="https://github.com/Sofacosta/gravity_spheres" target="_blank" rel="noreferrer">Github</a> if you are interested in looking at the code.
+      Sketch with Processing to practice conditionals. See code here: <a href="https://github.com/Sofacosta/gravity_spheres" target="_blank" rel="noreferrer">Github</a>
       </p>
     </div>
   );

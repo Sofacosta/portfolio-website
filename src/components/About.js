@@ -19,10 +19,7 @@ const About = () => {
         </p>
 
         <p className="text-white justify-center py-4">
-          Sofia has performed in different cities around the world including the
-          live electronic music festival{' '}
-          <a href="https://kontaktor.lv/">Kontaktor</a> in Latvia. In 2018 with
-          the help of a Career Opportunity grant provided by the Oregon Art
+          In 2018 with the help of a Career Opportunity grant provided by the Oregon Art
           Commission, she studied modular synthesis at Elektronmusikstudion
           (EMS) and helped produced a series of synth educational workshops for
           female and non-binary students at Superbooth Berlin and The Synth

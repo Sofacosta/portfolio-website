@@ -17,9 +17,7 @@ const Events = () => {
         ))
       ) : (
         <p className="fancy-text">
-          <em>Agosto 27 - Mind Control, CDMX. <a href="https://www.passline.com/eventos/mind-control-sam-binga" target="_blank" rel="noreferrer">
-        Buy Tickets here
-      </a> </em>
+          <em>No events at the moment</em>
         </p>
       )}
 

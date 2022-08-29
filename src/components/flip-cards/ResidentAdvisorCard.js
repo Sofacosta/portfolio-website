@@ -29,6 +29,7 @@ function ResidentAdvisorBackContent() {
         growing archive of dance music history (you can contribute at
         dancemusicarchives@gmail.com), and the Don't Call It A Comeback
         campaign.{' '}
+        <a href="https://ra.co/exchange/556" target="_blank" rel="noreferrer"> Listen here. </a>
       </p>
     </div>
   );
