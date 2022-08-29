@@ -5,7 +5,7 @@ function ResidentAdvisorFrontContent() {
     <div>
       <img
         className="object-cover"
-        src="/assets/images/Resident-advisor.png"
+        src="/assets/images/Resident-Advisor.png"
         alt="Resident advisor"
       />
     </div>
