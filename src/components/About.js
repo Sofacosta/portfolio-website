@@ -11,6 +11,9 @@ const About = () => {
           src="/assets/images/SofiaAcosta_026LRcredit_CarlyDiaz.jpg"
           alt="Coast2P"
         />
+        <p className="text-white justify-center -mt-5 ml-1 text-xs">
+        Photo by Carly Diaz
+      </p>
         <p className="text-white justify-center py-4">
           Sofia Acosta is a multidisciplinary artist and technologist. Under the alias Coast2c, she is a DJ and composes electronic music that oscillates
           between acid, drone and techno. Fluent in a multitude of

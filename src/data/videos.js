@@ -6,10 +6,17 @@ export const videos = [
       'My participation at Modular World Mexico 8/7/22. Modular World is a Live-stream event celebrating the global modular community. Created and hosted by Johno Wells.',
   },
   {
+    title: 'Mente maleable',
+    url: 'https://www.youtube.com/watch?v=RdoIXigYmfo',
+    description:
+      'Video by Doctor Bagre, music by Coast2c. Out via Krater Music ',
+  },
+
+  {
     title: 'Live - Pierce b and Coast2c',
     url: 'https://www.youtube.com/watch?v=bV_UATaGpuE&t=572s',
     description:
-      'Jam session with Pierce b synced to a Processing sketch.',
+      'Jam session with Pierce b synced to a Processing sketch I coded.',
   },
   {
     title: 'Obsidian Pulse',
