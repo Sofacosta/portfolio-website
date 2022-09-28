@@ -16,8 +16,8 @@ const Events = () => {
           <Event event={event} isListView={false} key={event.id} />
         ))
       ) : (
-        <p className="fancy-text">
-          <em>No events at the moment</em>
+        <p>
+          <a className="fancy-text" href="https://events.bookitbee.com/memes-ravers-cdmx/1er-aniversario-memes-ravers-cdmx/" target="_blank" rel="noreferrer"><em>Aniversario 1 Memesraverscdmx</em></a>
         </p>
       )}
 

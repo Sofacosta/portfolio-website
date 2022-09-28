@@ -16,7 +16,7 @@ export const videos = [
     title: 'Live - Pierce b and Coast2c',
     url: 'https://www.youtube.com/watch?v=bV_UATaGpuE&t=572s',
     description:
-      'Jam session with Pierce b synced to a Processing sketch I coded.',
+      'Jam session with Pierce b synced to a Processing sketch',
   },
   {
     title: 'Obsidian Pulse',
