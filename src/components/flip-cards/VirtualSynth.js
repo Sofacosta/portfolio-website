@@ -19,9 +19,9 @@ function VirtualSynthBackContent() {
         alt="Code Synth"
       />
       <p className="mb-2">
+      <a href="https://github.com/Sofacosta/SoundMaker.Solution"target="_blank" rel="noreferrer">Open source project in Github</a>.
         This collaborative project is a virtually-controlled synth built in Javascript on
         top of the Web Audio API. You can check the code and resources{' '}
-        <a href="https://github.com/Sofacosta/SoundMaker.Solution"target="_blank" rel="noreferrer">HERE</a>.
       </p>
       <p className="mb-2">
         The objective was to understand how to work with Web Audio API by

@@ -17,7 +17,7 @@ const Events = () => {
         ))
       ) : (
         <p>
-          <a className="fancy-text" href="https://events.bookitbee.com/memes-ravers-cdmx/1er-aniversario-memes-ravers-cdmx/" target="_blank" rel="noreferrer"><em>Aniversario 1 Memesraverscdmx</em></a>
+         <em className="fancy-text text-xl"> No events at the moment</em>
         </p>
       )}
 
