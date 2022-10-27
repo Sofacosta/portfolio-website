@@ -107,6 +107,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 1.15em;
 }
 
+.bm-menu li {
+  background: #373a47;
+}
+
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
   fill: #373a47;

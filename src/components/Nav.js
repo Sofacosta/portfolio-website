@@ -13,7 +13,7 @@ const Nav = () => {
   const getNavItems = navItems.map((item) => {
     const { path, name, children } = item;
     return (
-      <NavItem path={path} name={name} children={children} key={name} />
+      <NavItem path={path} name={name} children={children} key={name} isDesktop={isDesktop} />
     );
   })
   const desktopNav = (
