@@ -10,6 +10,7 @@ import Videos from './Videos';
 import Releases from './Releases';
 import Paintings from './VaultEp';
 import DjSets from './DjSets';
+import Press from './Press';
 
 const Routes = () => {
   return (
@@ -37,6 +38,9 @@ const Routes = () => {
       </Route>
       <Route path="/dj-sets">
         <DjSets />
+      </Route>
+      <Route path="/press">
+        <Press />
       </Route>
       <Route path="/">
         <Home />
