@@ -4,8 +4,8 @@ function FourFrontContent() {
   return (
     <img
       className="object-cover"
-      src="/assets/images/Analogtitlan.png"
-      alt="Analogtitlan"
+      src="https://media.giphy.com/media/DTThI1Uo6VHJ3Bitmw/giphy-downsized-large.gif"
+      alt="NFT"
     />
   );
 }
@@ -13,12 +13,15 @@ function FourBackContent() {
   return (
     <div>
       <p>
-        Analogtitlan is an hour monthly show that presents the sounds, tunes and
-        experiments from the growing synth community in Mexico city. This show
-        is presented by Síntesis con Leo. 25-oct-19{' '}
+        NFT collaboration between Theus Mago and Julieta Gil. 100 free-to-claim
+        via Pianity and Mutek MX collection.{' '}
       </p>
-      <a href="https://www.mixcloud.com/ThreadsRadio/analogtitlan-w-leo-mendez-threadsmexico-city-25-oct-19/" target="_blank" rel="noreferrer">
-        Listen here
+      <a
+        href="https://pianity.com/theus-mago/dead-piano"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Claim here
       </a>
     </div>
   );

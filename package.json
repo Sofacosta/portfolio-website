@@ -25,6 +25,7 @@
     "start": "craco start",
     "build": "craco build",
     "deploy": "aws s3 sync build/ s3://coast2c.me --acl public-read",
+    "predeploy": "yarn build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
