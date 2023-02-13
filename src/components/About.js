@@ -6,17 +6,14 @@ const About = () => {
       <div>
         <h2 className="text-white text-4xl mb-12">About</h2>
       </div>
-      <div className="mx-auto pt-4">
-        <img
-          src="/assets/images/SofiaAcosta_026LRcredit_CarlyDiaz.jpg"
-          alt="Coast2P"
-        />
+      <div className="mx-auto max-w-xl">
+        <img src="/assets/images/Coast2cLaFera.jpg" alt="Coast2P" />
         <p className="text-white justify-center -mt-5 ml-1 text-xs">
-          Photo by Carly Diaz
+          Photo by Start Evil
         </p>
         <p className="text-white justify-center py-4">
           Sofia Acosta is a multidisciplinary artist and technologist. Under the
-          alias Coast2c, she is a DJ and composes electronic music that
+          alias Coast2c, she is a Dj and composes electronic music that
           oscillates between acid, drone and techno. Fluent in a multitude of
           rhythmic styles, her DJ sets are eclectic and highly energetic,
           ranging from techno, acid house and synth punk.
@@ -24,14 +21,29 @@ const About = () => {
 
         <p className="text-white justify-center py-4">
           In 2018 with the help of a Career Opportunity grant provided by the
-          Oregon Art Commission, she studied synthesis at Elektronmusikstudion
-          (EMS) and helped produced a series of modular synth educational
-          workshops for female and non-binary students at Superbooth Berlin and
-          The Synth Library, Prague.
+          Oregon Art Commission, she studied modular synthesis at
+          Elektronmusikstudion (EMS) and helped produced a series of synth
+          educational workshops for female and non-binary students at Superbooth
+          Berlin and The Synth Library, Prague.
         </p>
 
         <p className="text-white justify-center py-4">
-          Sofia's music has been released on a variety of labels including{' '}
+          Coast2c's work includes sound design and music production. Her music
+          has been released on a variety of labels including{' '}
+          <a
+            href="https://faunareve.com/album/morphism-incl-coast2mago-remix"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Fauna Reve,
+          </a>{' '}
+          <a
+            href="https://durolabel.com/track/dead-piano-original-mix"
+            target="_blank"
+            rel="noreferrer"
+          >
+            DURO,
+          </a>{' '}
           <a href="https://tutulive.com/" target="_blank" rel="noreferrer">
             TUTU Records,
           </a>{' '}

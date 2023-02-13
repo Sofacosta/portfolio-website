@@ -6,17 +6,17 @@ body {
 
 html, body {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #C8C8C8;
 }
 
 p {
-  color: white;
+  color: #C8C8C8;
   font-size: 1.2rem;
   line-height: 1.9rem;
 }
 
 a {
-  color: white;
+  color: #C8C8C8;
   text-decoration: underline;
   transition: filter ease-in-out .25s;
 }
@@ -35,3 +35,9 @@ a:hover {
   width: 1px;
 }
 
+.slide-item p {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: right;
+}

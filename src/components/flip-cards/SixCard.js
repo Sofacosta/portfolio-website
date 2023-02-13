@@ -13,11 +13,17 @@ function SixBackContent() {
   return (
     <div>
       <p>
-      <a href="https://www.landscape.fm/counterclockwise" target="_blank" rel="noreferrer">BUY HERE</a>
+        <a
+          href="https://www.landscape.fm/counterclockwise"
+          target="_blank"
+          rel="noreferrer"
+        >
+          BUY HERE
+        </a>{' '}
         COUNTERCLOCKWISE includes samples of beats, field recordings,
         vocalizations, and instrumentations from an exciting selection of
         musicians, poets and artists. The samples on COUNTERCLOCKWISE are open
-        source, so you can use them however you want. 
+        source, so you can use them however you want.
       </p>
     </div>
   );

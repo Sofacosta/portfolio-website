@@ -41,6 +41,7 @@ nav ul li ul:focus {
   visibility: visible;
   opacity: 1;
   display: block;
+  z-index: 1;
 }
 
 /* IE 11 won't get this, but at least the top-level menus will work */

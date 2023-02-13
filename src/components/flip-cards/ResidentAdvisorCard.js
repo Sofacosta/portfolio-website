@@ -14,18 +14,26 @@ function ResidentAdvisorFrontContent() {
 function ResidentAdvisorBackContent() {
   return (
     <div>
-      <p>
-      {' '}
-        <a href="https://ra.co/exchange/556" target="_blank" rel="noreferrer"> The Critics Roundtable </a> gives writers and artists a chance to go in-depth
-        on their highlights in electronic music from the year thus far. 28/4/22
+      <p className="italic">
+        <a href="https://ra.co/exchange/556" target="_blank" rel="noreferrer">
+          {' '}
+          The Critics Roundtable{' '}
+        </a>{' '}
+        gives writers and artists a chance to go in-depth on their highlights in
+        electronic music from the year thus far."She brings out everyone's inner
+        demons, like you're reminded of primordial urgence" Nyshka Chandran.
       </p>
     </div>
   );
 }
 
 export function ResidentAdvisorCardFront() {
-  return <FlipCardBase content={<ResidentAdvisorFrontContent />} isFront={true} />;
+  return (
+    <FlipCardBase content={<ResidentAdvisorFrontContent />} isFront={true} />
+  );
 }
 export function ResidentAdvisorCardBack() {
-  return <FlipCardBase content={<ResidentAdvisorBackContent />} isFront={false} />;
+  return (
+    <FlipCardBase content={<ResidentAdvisorBackContent />} isFront={false} />
+  );
 }

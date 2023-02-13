@@ -17,7 +17,7 @@ const Events = () => {
         ))
       ) : (
         <p>
-          <em className="fancy-text text-xl"> PERVRT.MX</em>
+          <em className="fancy-text text-xl"> No events at the moment</em>
         </p>
       )}
 

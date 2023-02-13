@@ -13,15 +13,25 @@ function GravitySpheresBackContent() {
   return (
     <div>
       <p>
-      Sketch with Processing to practice conditionals. See code here: <a href="https://github.com/Sofacosta/gravity_spheres" target="_blank" rel="noreferrer">Github</a>
+        <a
+          href="https://github.com/Sofacosta/gravity_spheres"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
       </p>
     </div>
   );
 }
 
 export function GravitySpheresCardFront() {
-  return <FlipCardBase content={<GravitySpheresFrontContent />} isFront={true} />;
+  return (
+    <FlipCardBase content={<GravitySpheresFrontContent />} isFront={true} />
+  );
 }
 export function GravitySpheresCardBack() {
-  return <FlipCardBase content={<GravitySpheresBackContent />} isFront={false} />;
+  return (
+    <FlipCardBase content={<GravitySpheresBackContent />} isFront={false} />
+  );
 }

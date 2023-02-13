@@ -6,7 +6,7 @@ export const navItems = [
     children: [
       { path: '/videos', name: 'Video' },
       { path: '/releases', name: 'Releases' },
-      { path: '/dj-sets', name: 'DJ' },
+      { path: '/dj-sets', name: 'DJ Sets' },
     ],
   },
   { path: '/about', name: 'About' },
@@ -14,4 +14,5 @@ export const navItems = [
   { path: '/press', name: 'Press' },
   { path: '/events', name: 'Events' },
   { path: '/contact', name: 'Contact' },
+  
 ];
