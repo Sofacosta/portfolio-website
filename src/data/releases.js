@@ -3,10 +3,10 @@ export const releases = [
     buyUrl: 'https://durolabel.com/track/dead-piano-original-mix',
     releaseDate: new Date('12/16/2022'),
     htmlDescription:
-      '<p class="justify-center">It’s followed by the collaboration between Theus Mago and the modular synthesis crack, Coast2c. “Dead Piano” a track influenced by rave music and acid techno, with a resonant bass, sharp percussions and an obscure and deep melody.',
+      '<p class="justify-center">...It’s followed by the collaboration between Theus Mago and the modular synthesis crack, Coast2c. “Dead Piano” a track influenced by rave music and acid techno, with a resonant bass, sharp percussions and an obscure and deep melody.',
     id: 1,
     originalImg: '/assets/images/MuyDuroComp.jpeg',
-    title: 'Dead Piano - Theus Mago & Coast2c',
+    title: 'Dead Piano - Theus Mago & Coast2c [DURO]',
   },
   {
     buyUrl: 'https://faunareve.com/album/morphism-incl-coast2mago-remix',
@@ -15,7 +15,7 @@ export const releases = [
       '<p class="justify-center">The trip nears the end with the powerful, percussion-driven “Treeball Alpaka”, a track that sculpts a tight passageway of metallic, futuristic sounds and haunting voices with a sense of menace, and finally settles down with an upbeat, lively remix of this last track, like the enactment of a last-minute escape at the speed of light, out of the mind and hands of Coast2Mago, one of Mexican DJ Theus Mago’s many monikers now with modular producer, Coast2c.',
     id: 1,
     originalImg: '/assets/images/Atweed.png',
-    title: 'Treeball Alpaka - A-Tweed x Oltrefuturo',
+    title: 'Treeball Alpaka - A-Tweed x Oltrefuturo [Fauna Rêve]',
   },
   {
     buyUrl: 'https://www.beatport.com/release/de-tu-a-tu-rmxs/3672173',
@@ -33,7 +33,7 @@ export const releases = [
       '<p class="justify-center">Vault starts with an hypnotic acid drone piece with “Bones”, a one-take live recording of several different synths, followed by “Time is Not Linear”, an exploration of loops created by the evocative sound of modular synthesizers. “Cornelius” plays with textures, samples and noise. The EP ends with the title track “Vault”, which layers live acid sounds on top of the drums.</p><br><p class="mx-auto justify-center py-4">Press:<ul><li><a href=https://ra.co/exchange/556 rel=noreferrer target=_blank>Resident advisor</a><li><a href=https://filtermexico.com/2021/01/27/coast2c-explora-el-minimalismo-del-drone-y-el-techno-en-vault/ rel=noreferrer target=_blank>Filter Mexico</a><li><a href="https://www.youtube.com/watch?v=REBfhwf9UHk"rel=noreferrer target=_blank>Hate Lab</a><li><a href=https://coldexperiment.com/news/coast2c-vault/ rel=noreferrer target=_blank>Cold Experiment</a><li><a href=https://www.techclubbers.com/coast2c-vaul-ep-gestef-records/ rel=noreferrer target=_blank>Tech Clubbers</a><li><a href=http://wickedstyle.neural.it/2020/12/coast2c-vault/ rel=noreferrer target=_blank>Wicked Style</a><li><a href=https://soundcloud.com/thebrvtalistxx/coast2c-time-is-not-linear-gestef-records rel=noreferrer target=_blank>The Brvtalist</a></ul>',
     id: 2,
     originalImg: '/assets/images/Vault_cover.png',
-    title: 'Vault EP',
+    title: 'Vault EP [Gestef Records]',
   },
 
   {
@@ -44,7 +44,7 @@ export const releases = [
 
     id: 3,
     originalImg: '/assets/images/mente-maleable.png',
-    title: 'Mente Maleable',
+    title: 'Mente Maleable [Krater Music]',
   },
 
   {
@@ -54,7 +54,7 @@ export const releases = [
       '<p class="justify-center"> This triptych compilation represents a spectrum of artists and musical lineages, touching on ambient, downtempo, electro, techno, breaks, and miscellaneous other strains of rhythm and frequency. It is a humble pleasure to share the work of such a deeply talented roster of artists, both audio and visual. Through the generosity of these contributors all 2021 compilation proceeds will be directed to Fires Igniting the Spirit and the Lavender Rights Project’s WA Black Trans Task Force. ',
     id: 4,
     originalImg: '/assets/images/IdeoA.png',
-    title: 'Iideo.a - Mirror lake',
+    title: 'Mirror lake [iideo]',
   },
 
   // {
@@ -73,7 +73,7 @@ export const releases = [
       '<p class="justify-center"> “Portland’s very own Coast2c rounds off proceedings with her take on FMMPC. Part experimental techno, part textured drone, Sofia’s take is like something from Aphex Twin’s Ambient Works distilled through a post Covid-19 lens.."',
     id: 6,
     originalImg: '/assets/images/ransome-note.png',
-    title: 'FMMPC (Coast2c Remix)',
+    title: 'FMMPC - Graintable (Coast2c Remix) [Ransome Note Records]',
   },
 
   {

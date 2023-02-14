@@ -18,7 +18,7 @@ function MixmagBackContent() {
       <p>
         Entrevista completa
         <a
-          href="https://coast2c.bandcamp.com/album/vault"
+          href="https://content.yudu.com/web/44iu0/0A44iu1/MexicoSEPTIEMBRE22/html/index.html?page=58&origin=reader"
           target="_blank"
           rel="noreferrer"
         >

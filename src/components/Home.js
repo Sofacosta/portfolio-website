@@ -45,7 +45,7 @@ const Home = () => {
 
   return (
     <>
-      <Slide>
+      <Slide responsive>
         {homeHeroImageSlideItems.map(({ description, url }, index) => (
           <SlideItem
             key={index}
