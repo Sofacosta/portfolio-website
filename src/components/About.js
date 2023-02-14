@@ -21,10 +21,10 @@ const About = () => {
 
         <p className="text-white justify-center py-4">
           In 2018 with the help of a Career Opportunity grant provided by the
-          Oregon Art Commission, she studied modular synthesis at
-          Elektronmusikstudion (EMS) and helped produced a series of synth
-          educational workshops for female and non-binary students at Superbooth
-          Berlin and The Synth Library, Prague.
+          Oregon Art Commission, she studied synthesis at Elektronmusikstudion
+          (EMS) and helped produced a series of synth educational workshops for
+          female and non-binary students at Superbooth Berlin and The Synth
+          Library, Prague.
         </p>
 
         <p className="text-white justify-center py-4">

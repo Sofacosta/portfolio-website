@@ -1,25 +1,24 @@
 import React from 'react';
 import PressItem from './PressItem';
 import { pressItems } from '../data/pressItems';
+import { ButtonLink } from './ButtonLink';
 
 import '../styles/Press.css';
 
 const Press = () => {
   return (
-    <>
-      <div>
-        {pressItems.map((item, index) => {
-          return (
-            <PressItem
-              key={index}
-              title={item.title}
-              source={item.source}
-              url={item.url}
-            />
-          );
-        })}
-      </div>
-    </>
+    <div>
+      {pressItems.map((item, index) => {
+        return (
+          <PressItem
+            key={index}
+            title={item.title}
+            source={item.source}
+            url={item.url}
+          />
+        );
+      })}
+    </div>
   );
 };
 
