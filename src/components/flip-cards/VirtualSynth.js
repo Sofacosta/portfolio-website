@@ -24,7 +24,7 @@ function VirtualSynthBackContent() {
           target="_blank"
           rel="noreferrer"
         >
-          Open source project in Github
+          Open source project.
         </a>
       </p>
     </div>

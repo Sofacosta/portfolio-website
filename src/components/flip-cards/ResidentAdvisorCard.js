@@ -14,7 +14,7 @@ function ResidentAdvisorFrontContent() {
 function ResidentAdvisorBackContent() {
   return (
     <div>
-      <p className="italic">
+      <p>
         <a href="https://ra.co/exchange/556" target="_blank" rel="noreferrer">
           {' '}
           The Critics Roundtable{' '}

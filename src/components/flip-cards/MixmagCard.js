@@ -6,7 +6,7 @@ function MixmagFrontContent() {
       <img
         className="object-cover"
         src="/assets/images/mixmag2.png"
-        alt="Vault EP"
+        alt="Mixmag"
       />
     </div>
   );
@@ -14,17 +14,17 @@ function MixmagFrontContent() {
 function MixmagBackContent() {
   return (
     <div>
-      <img className="mb-4" src="/assets/images/mixmag.png" alt="Mixmag" />
       <p>
-        Entrevista completa
+        Entrevista Mixmag {''}
         <a
           href="https://content.yudu.com/web/44iu0/0A44iu1/MexicoSEPTIEMBRE22/html/index.html?page=58&origin=reader"
           target="_blank"
           rel="noreferrer"
         >
-          aquí.{' '}
+          Aquí.{' '}
         </a>
       </p>
+      <img className="mb-4" src="/assets/images/mixmag.png" alt="Mixmag" />
     </div>
   );
 }

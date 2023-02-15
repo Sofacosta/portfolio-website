@@ -8,16 +8,17 @@ const cardStyle = {
     overflow: 'hidden',
   },
   back: {
-    overflowY: 'scroll',
-  }
-  
-  
+    overflowY: '',
+  },
 };
 
 function FlipCardBase(props) {
   const cardFaceStyles = props.isFront ? cardStyle.front : cardStyle.back;
   return (
-    <div className="text-white mb-6" style={{ ...cardStyle.universal, ...cardFaceStyles }}>
+    <div
+      className="text-white mb-6"
+      style={{ ...cardStyle.universal, ...cardFaceStyles }}
+    >
       {props.content}
     </div>
   );

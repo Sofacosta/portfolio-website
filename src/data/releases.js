@@ -1,5 +1,13 @@
 export const releases = [
   {
+    buyUrl: 'https://coast2c.bandcamp.com/track/proximity',
+    releaseDate: new Date('1/6/2023'),
+    htmlDescription: '<p class="justify-center"> A melting analog acid ride...',
+    id: 1,
+    originalImg: '/assets/images/proximity.jpg',
+    title: 'Proximity [Gestef Records]',
+  },
+  {
     buyUrl: 'https://durolabel.com/track/dead-piano-original-mix',
     releaseDate: new Date('12/16/2022'),
     htmlDescription:
