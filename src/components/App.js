@@ -12,10 +12,8 @@ const App = () => {
     <div className="container mx-auto my-0 max-w-5xl py-0 px-6">
       <div className="flex flex-col min-h-screen justify-between">
         <Router>
-          <header className="flex justify-between py-12">
-            <h1 className="text-5xl font-medium text-white inline-block">
-              Coast2c
-            </h1>
+          <header className="flex justify-between py-7">
+            <h1 className="text-5xl font-medium text-white">COAST2C</h1>
             <Nav />
           </header>
           <main className="pb-12 max-w-5xl flex-auto">
