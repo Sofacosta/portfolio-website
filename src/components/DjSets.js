@@ -9,6 +9,7 @@ const DjSets = () => {
         className="mx-auto"
         height="700px"
         url="https://soundcloud.com/coast2c/sets/mixes"
+        width="100%"
       />
     </>
   );
