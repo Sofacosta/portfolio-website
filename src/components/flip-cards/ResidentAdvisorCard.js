@@ -1,39 +1,21 @@
-import FlipCardBase from './FlipCardBase';
-
-function ResidentAdvisorFrontContent() {
-  return (
-    <div>
-      <img
-        className="object-cover"
-        src="/assets/images/Resident-Advisor.png"
-        alt="Resident advisor"
-      />
-    </div>
-  );
-}
-function ResidentAdvisorBackContent() {
-  return (
-    <div>
-      <p>
-        <a href="https://ra.co/exchange/556" target="_blank" rel="noreferrer">
-          {' '}
-          The Critics Roundtable{' '}
-        </a>{' '}
-        gives writers and artists a chance to go in-depth on their highlights in
-        electronic music from the year thus far."She brings out everyone's inner
-        demons, like you're reminded of primordial urgence" Nyshka Chandran.
-      </p>
-    </div>
-  );
-}
+import FlipCardBackContent from "./FlipCardBackContent";
 
 export function ResidentAdvisorCardFront() {
   return (
-    <FlipCardBase content={<ResidentAdvisorFrontContent />} isFront={true} />
+    <img
+      className="object-cover"
+      src="/assets/images/resident-advisor-square.png"
+      alt="Resident Advisor"
+    />
   );
 }
 export function ResidentAdvisorCardBack() {
   return (
-    <FlipCardBase content={<ResidentAdvisorBackContent />} isFront={false} />
+    <FlipCardBackContent
+      description={`The Critics Roundtable gives writers and artists a chance to go in-depth on their highlights in electronic music from the year thus far."She brings out everyone's inner demons, like you're reminded of primordial urgence" Nyshka Chandran.`}
+      linkText="The Critics Roundtable"
+      title="Resident Advisor"
+      url="https://ra.co/exchange/556"
+    />
   );
 }

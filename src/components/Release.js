@@ -1,22 +1,19 @@
-import { Link } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
 import { ButtonLink } from './ButtonLink';
 
 const Release = (props) => {
-  const { buyUrl, htmlDescription, id, originalImg, releaseDate, title } =
+  const { altText, buyUrl, htmlDescription, originalImg, releaseDate, title } =
     props;
   return (
-    <>
-      <div id={id}>
-        <h2 className="text-4xl mb-12">{title}</h2>
-      </div>
+    <div>
+      <h2 className="text-4xl mb-12">{title}</h2>
       <div className="w-max my-18 mx-auto">
         <ButtonLink url={buyUrl}>Buy | Listen</ButtonLink>
       </div>
       <img
         className="my-12 object-cover h-auto w-full"
         src={originalImg}
-        alt="VaultEP"
+        alt={altText || ''}
       />
       <p>
         Released on:{' '}
@@ -28,7 +25,7 @@ const Release = (props) => {
         })}
       </p>
       <div>{ReactHtmlParser(htmlDescription)}</div>
-    </>
+    </div>
   );
 };
 

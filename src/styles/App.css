@@ -41,3 +41,12 @@ a:hover {
   background: #efefef;
   text-align: right;
 }
+
+/* Slide controls */
+.react-slideshow-container .nav:first-of-type {
+  left: 15px;
+}
+
+.react-slideshow-container .nav:last-of-type {
+  right: 15px;
+}

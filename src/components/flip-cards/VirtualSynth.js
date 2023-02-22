@@ -1,39 +1,22 @@
-import FlipCardBase from './FlipCardBase';
+import FlipCardBackContent from './FlipCardBackContent';
 
-function VirtualSynthFrontContent() {
+export function VirtualSynthCardFront() {
   return (
     <img
-      className="object-cover h-full"
-      src="/assets/images/virtual-synth.png"
+      className="object-cover"
+      src="/assets/images/virtual-synth-square.png"
       alt="Virtual Synth"
     />
   );
 }
-function VirtualSynthBackContent() {
-  return (
-    <div>
-      <h3 className="text-2xl mb-4">Virtual Synth</h3>
-      <img
-        className="mb-4"
-        src="/assets/images/code-synth.png"
-        alt="Code Synth"
-      />
-      <p className="mb-2">
-        <a
-          href="https://github.com/Sofacosta/SoundMaker.Solution"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Open source project.
-        </a>
-      </p>
-    </div>
-  );
-}
-
-export function VirtualSynthCardFront() {
-  return <FlipCardBase content={<VirtualSynthFrontContent />} isFront={true} />;
-}
 export function VirtualSynthCardBack() {
-  return <FlipCardBase content={<VirtualSynthBackContent />} isFront={false} />;
+  return (
+    <FlipCardBackContent
+      altText="Code Synth"
+      imageUrl="/assets/images/code-synth.png"
+      linkText="Open source project on Github"
+      title="Virtual Synth"
+      url="https://github.com/Sofacosta/SoundMaker.Solution"
+    />
+  );
 }

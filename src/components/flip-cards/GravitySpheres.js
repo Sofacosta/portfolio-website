@@ -1,37 +1,21 @@
-import FlipCardBase from './FlipCardBase';
+import FlipCardBackContent from './FlipCardBackContent';
 
-function GravitySpheresFrontContent() {
+export function GravitySpheresCardFront() {
   return (
     <img
-      className="object-cover h-full"
-      src="https://media.giphy.com/media/VTHdQHi0FtzxgbbHqT/giphy.gif"
+      className="object-cover"
+      src="/assets/images/gravity-spheres-square.gif"
       alt="Gravity Spheres"
     />
   );
 }
-function GravitySpheresBackContent() {
-  return (
-    <div>
-      <p>
-        <a
-          href="https://github.com/Sofacosta/gravity_spheres"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Github
-        </a>
-      </p>
-    </div>
-  );
-}
-
-export function GravitySpheresCardFront() {
-  return (
-    <FlipCardBase content={<GravitySpheresFrontContent />} isFront={true} />
-  );
-}
 export function GravitySpheresCardBack() {
   return (
-    <FlipCardBase content={<GravitySpheresBackContent />} isFront={false} />
+    <FlipCardBackContent
+      description="Gravity Spheres is a Processing sketch that simulates the gravitational interaction between multiple spheres. The sketch was inspired by the work of Daniel Shiffman and his Coding Train Youtube channel."
+      linkText="Gravity Spheres on Github"
+      title="Gravity Spheres"
+      url="https://github.com/Sofacosta/gravity_spheres"
+    />
   );
 }

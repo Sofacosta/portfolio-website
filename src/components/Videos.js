@@ -7,11 +7,12 @@ const Videos = () => {
     <div className="mx-auto">
       <h2 className="text-white text-4xl mb-12">Video</h2>
       {videos &&
-        videos.map((video) => (
+        videos.map((video, index) => (
           <Video
+            description={video.description}
+            key={index}
             title={video.title}
             url={video.url}
-            description={video.description}
           />
         ))}
     </div>
