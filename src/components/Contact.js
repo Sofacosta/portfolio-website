@@ -18,11 +18,11 @@ export default function App() {
       .then(
         (result) => {
           alert("Message sent, we'll get back to you shortly");
-          // console.log(result.text);
+          console.log(result.text);
         },
         (error) => {
           alert('An error occurred, Please try again');
-          // console.log(error.text);
+          console.log(error.text);
         }
       )
       .then(() => {
