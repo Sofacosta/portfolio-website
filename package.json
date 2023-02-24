@@ -28,6 +28,8 @@
     "start": "craco start",
     "build": "craco build",
     "deploy": "aws s3 sync build/ s3://coast2c.me --acl public-read",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E1FSNHFPVOY04V --paths '/*' && yarn invalidateWWW",
+    "invalidateWWW": "aws cloudfront create-invalidation --distribution-id E3UPYQ52DGMNIZ --paths '/*'",
     "predeploy": "yarn build",
     "test": "craco test",
     "eject": "react-scripts eject"
