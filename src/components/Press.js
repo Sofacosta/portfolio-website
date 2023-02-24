@@ -1,7 +1,6 @@
 import React from 'react';
 import PressItem from './PressItem';
 import { pressItems } from '../data/pressItems';
-import { ButtonLink } from './ButtonLink';
 
 import '../styles/Press.css';
 
