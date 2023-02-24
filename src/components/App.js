@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Nav from './Nav';
 import Routes from './Routes';
 
+import 'tailwindcss/tailwind.css';
 import '../index.css';
 import '../styles/App.css';
 
