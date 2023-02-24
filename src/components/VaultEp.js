@@ -11,7 +11,7 @@ const VaultEp = () => {
         <Link
           className="text-white no-underline text-2xl border-2 border-white rounded-lg p-2"
           target="_blank"
-          to={{ pathname: 'https://coast2c.bandcamp.com/album/vault' }}
+          to={'https://coast2c.bandcamp.com/album/vault'}
         >
           Buy | Listen
         </Link>
