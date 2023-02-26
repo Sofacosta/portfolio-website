@@ -84,6 +84,7 @@ const FlipCardsWrapper = () => {
           className="h-auto aspect-square max-h-60 m-2 flex-auto overflow-hidden rounded-md"
           key={index}
           onClick={onClick}
+          style={{ minHeight: '200px' }}
         >
           <ReactCardFlip containerClassName="h-full" isFlipped={isFlipped}>
             {front}
