@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
+import { useAnalytics } from 'use-analytics';
 import { VirtualSynthCardBack, VirtualSynthCardFront } from './VirtualSynth';
 import { MixmagCardBack, MixmagCardFront } from './MixmagCard';
 import {
@@ -14,6 +15,7 @@ import {
 import { SixCardBack, SixCardFront } from './SixCard';
 
 const FlipCardsWrapper = () => {
+  const { track } = useAnalytics();
   const [cardsFlipped, setCardsFlipped] = useState({
     virtualSynth: false,
     mixmag: false,
@@ -28,52 +30,82 @@ const FlipCardsWrapper = () => {
       front: <NftCardFront />,
       back: <NftCardBack />,
       isFlipped: cardsFlipped.nft,
-      onClick: () =>
-        setCardsFlipped({ ...cardsFlipped, nft: !cardsFlipped.nft }),
+      onClick: () => {
+        track('cardFlipped', {
+          cardName: 'NFT',
+        });
+        console.log('NFT');
+        setCardsFlipped({ ...cardsFlipped, nft: !cardsFlipped.nft });
+      },
     },
     {
       front: <SixCardFront />,
       back: <SixCardBack />,
       isFlipped: cardsFlipped.six,
-      onClick: () =>
-        setCardsFlipped({ ...cardsFlipped, six: !cardsFlipped.six }),
+      onClick: () => {
+        track('cardFlipped', {
+          cardName: 'COUNTERCLOCKWISE',
+        });
+        console.log('COUNTERCLOCKWISE');
+        setCardsFlipped({ ...cardsFlipped, six: !cardsFlipped.six });
+      },
     },
     {
       front: <MixmagCardFront />,
       back: <MixmagCardBack />,
       isFlipped: cardsFlipped.mixmag,
-      onClick: () =>
-        setCardsFlipped({ ...cardsFlipped, mixmag: !cardsFlipped.mixmag }),
+      onClick: () => {
+        track('cardFlipped', {
+          cardName: 'MixMag',
+        });
+        console.log('MixMag');
+        setCardsFlipped({ ...cardsFlipped, mixmag: !cardsFlipped.mixmag });
+      },
     },
     {
       front: <ResidentAdvisorCardFront />,
       back: <ResidentAdvisorCardBack />,
       isFlipped: cardsFlipped.residentAdvisor,
-      onClick: () =>
+      onClick: () => {
+        track('cardFlipped', {
+          cardName: 'Resident Advisor',
+        });
+        console.log('Resident Advisor');
         setCardsFlipped({
           ...cardsFlipped,
           residentAdvisor: !cardsFlipped.residentAdvisor,
-        }),
+        });
+      },
     },
     {
       front: <VirtualSynthCardFront />,
       back: <VirtualSynthCardBack />,
       isFlipped: cardsFlipped.virtualSynth,
-      onClick: () =>
+      onClick: () => {
+        track('cardFlipped', {
+          cardName: 'Virtual Synth',
+        });
+        console.log('Virtual Synth');
         setCardsFlipped({
           ...cardsFlipped,
           virtualSynth: !cardsFlipped.virtualSynth,
-        }),
+        });
+      },
     },
     {
       front: <GravitySpheresCardFront />,
       back: <GravitySpheresCardBack />,
       isFlipped: cardsFlipped.gravitySpheres,
-      onClick: () =>
+      onClick: () => {
+        track('cardFlipped', {
+          cardName: 'Gravity Spheres',
+        });
+        console.log('Gravity Spheres');
         setCardsFlipped({
           ...cardsFlipped,
           gravitySpheres: !cardsFlipped.gravitySpheres,
-        }),
+        });
+      },
     },
   ];
 

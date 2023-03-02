@@ -1,12 +1,17 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { Button } from './Button';
+import { useAnalytics } from 'use-analytics';
 
-export default function App() {
+const Contact = () => {
+  const { track } = useAnalytics();
   const formRef = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    track('contactForm', {
+      action: 'submit',
+    });
 
     emailjs
       .sendForm(
@@ -101,4 +106,6 @@ export default function App() {
       </form>
     </div>
   );
-}
+};
+
+export default Contact;

@@ -1,6 +1,15 @@
 import { ButtonLink } from './ButtonLink';
+import { useAnalytics } from 'use-analytics';
 
 const PressItem = ({ title, source, url }) => {
+  const { track } = useAnalytics();
+  const readMoreHandler = () => {
+    track('readMoreButton', {
+      action: 'click',
+      pressTitle: title,
+    });
+  };
+
   return (
     <div className="mb-16">
       <h3 className="text-white text-lg font-style italic justify-center">
@@ -10,7 +19,9 @@ const PressItem = ({ title, source, url }) => {
         {source}
       </p>
       <div className="text-xs">
-        <ButtonLink url={url}>Read More</ButtonLink>
+        <ButtonLink onClick={readMoreHandler} url={url}>
+          Read More
+        </ButtonLink>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import FlipCardBackContent from "./FlipCardBackContent";
+import FlipCardBackContent from './FlipCardBackContent';
 
 export function ResidentAdvisorCardFront() {
   return (

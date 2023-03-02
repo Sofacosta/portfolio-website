@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 
 import About from './About';
 import Contact from './Contact';
@@ -20,27 +20,27 @@ const App = () => {
   return (
     <div className="container mx-auto my-0 max-w-5xl py-0 px-6">
       <div className="flex flex-col min-h-screen justify-between">
-        <BrowserRouter>
-          <header className="flex justify-between py-7">
+        <header className="flex justify-between py-7">
+          <Link className="no-underline" to="/">
             <h1 className="text-5xl font-medium text-white">COAST2C</h1>
-            <Nav />
-          </header>
-          <main className="pb-12 max-w-5xl flex-auto">
-            <Routes>
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/events" element={<Events />} />
-              <Route path="/newsletter" element={<Newsletter />} />
-              <Route path="/videos" element={<Videos />} />
-              <Route path="/releases" element={<Releases />} />
-              <Route path="/vaultep" element={<VaultEp />} />
-              <Route path="/dj-sets" element={<DjSets />} />
-              <Route path="/press" element={<Press />} />
-              <Route path="/" element={<Home />} />
-            </Routes>
-          </main>
-          <Footer />
-        </BrowserRouter>
+          </Link>
+          <Nav />
+        </header>
+        <main className="pb-12 max-w-5xl flex-auto">
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/newsletter" element={<Newsletter />} />
+            <Route path="/videos" element={<Videos />} />
+            <Route path="/releases" element={<Releases />} />
+            <Route path="/vaultep" element={<VaultEp />} />
+            <Route path="/dj-sets" element={<DjSets />} />
+            <Route path="/press" element={<Press />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
     </div>
   );
