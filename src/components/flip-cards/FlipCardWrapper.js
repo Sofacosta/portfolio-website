@@ -34,7 +34,6 @@ const FlipCardsWrapper = () => {
         track('cardFlipped', {
           cardName: 'NFT',
         });
-        console.log('NFT');
         setCardsFlipped({ ...cardsFlipped, nft: !cardsFlipped.nft });
       },
     },
@@ -46,7 +45,6 @@ const FlipCardsWrapper = () => {
         track('cardFlipped', {
           cardName: 'COUNTERCLOCKWISE',
         });
-        console.log('COUNTERCLOCKWISE');
         setCardsFlipped({ ...cardsFlipped, six: !cardsFlipped.six });
       },
     },
@@ -58,7 +56,6 @@ const FlipCardsWrapper = () => {
         track('cardFlipped', {
           cardName: 'MixMag',
         });
-        console.log('MixMag');
         setCardsFlipped({ ...cardsFlipped, mixmag: !cardsFlipped.mixmag });
       },
     },
@@ -70,7 +67,6 @@ const FlipCardsWrapper = () => {
         track('cardFlipped', {
           cardName: 'Resident Advisor',
         });
-        console.log('Resident Advisor');
         setCardsFlipped({
           ...cardsFlipped,
           residentAdvisor: !cardsFlipped.residentAdvisor,
@@ -85,7 +81,6 @@ const FlipCardsWrapper = () => {
         track('cardFlipped', {
           cardName: 'Virtual Synth',
         });
-        console.log('Virtual Synth');
         setCardsFlipped({
           ...cardsFlipped,
           virtualSynth: !cardsFlipped.virtualSynth,
@@ -100,7 +95,6 @@ const FlipCardsWrapper = () => {
         track('cardFlipped', {
           cardName: 'Gravity Spheres',
         });
-        console.log('Gravity Spheres');
         setCardsFlipped({
           ...cardsFlipped,
           gravitySpheres: !cardsFlipped.gravitySpheres,
