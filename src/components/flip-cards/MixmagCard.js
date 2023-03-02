@@ -14,7 +14,7 @@ export function MixmagCardBack() {
     <FlipCardBackContent
       altText="Interview with Mixmag Mexico"
       imageUrl="/assets/images/mixmag.png"
-      linkText="Aquí"
+      linkText="Lee la entrevista completa"
       title="Entrevista Mixmag"
       url="https://content.yudu.com/web/44iu0/0A44iu1/MexicoSEPTIEMBRE22/html/index.html?page=58&origin=reader"
     />

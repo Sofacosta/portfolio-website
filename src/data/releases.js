@@ -1,6 +1,15 @@
 export const releases = [
   {
     altText: '',
+    buyUrl: 'https://coast2c.bandcamp.com/album/machine-music-human-dance',
+    releaseDate: new Date('3/10/2023'),
+    htmlDescription:
+      '<p class="justify-center"> Machine Music, Human Dance is a conceptual EP created for Takahiro Yamamotos performance NOTHINGBEING, which premiered on September 9th, 2022 at T:BA PICA. "Based on philosophical and physical research in the approaches to nothingness as well as extensive discussions and reflections with participating artists about their own sense of existence in society, their needs in life, and their embodied daily experiences, this work will invite the viewers to "be" in the space together as they witness the performers engaging in questions of not thinking, feeling, surrendering, transforming, conjuring, and forgetting" - Excerpt from NOTHINGBEING description.</p>',
+    originalImg: '/assets/images/machine-music-human-dance.jpg',
+    title: 'Machine Music, Human Dance [Gestef Records]',
+  },
+  {
+    altText: '',
     buyUrl: 'https://coast2c.bandcamp.com/track/proximity',
     releaseDate: new Date('1/6/2023'),
     htmlDescription:

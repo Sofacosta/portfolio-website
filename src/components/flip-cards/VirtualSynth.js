@@ -14,7 +14,7 @@ export function VirtualSynthCardBack() {
     <FlipCardBackContent
       altText="Code Synth"
       imageUrl="/assets/images/code-synth.png"
-      linkText="Open source project on Github"
+      linkText="View open source project"
       title="Virtual Synth"
       url="https://github.com/Sofacosta/SoundMaker.Solution"
     />

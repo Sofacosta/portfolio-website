@@ -13,7 +13,7 @@ export function NftCardBack() {
   return (
     <FlipCardBackContent
       description="NFT collaboration between Coast2c, Theus Mago and Julieta Gil. 100 free-to-claim via Pianity and Mutek MX collection."
-      linkText="Free-to-claim NFT"
+      linkText="Claim your free NFT!"
       title="Dead Piano NFT"
       url="https://pianity.com/theus-mago/dead-piano"
     />
