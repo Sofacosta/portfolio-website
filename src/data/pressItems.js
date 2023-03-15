@@ -1,5 +1,11 @@
 export const pressItems = [
   {
+    title:
+      '"12 Emerging Artists You Need To Hear: March 2023" Whether in an art gallery or a club, Sofia Acosta, aka Coast2c, knows how to get people moving. A producer and sound artist from Mexico City..."',
+    source: 'DJ MAG',
+    url: 'https://djmag.com/features/12-emerging-artists-you-need-hear-march-2023',
+  },
+  {
     title: '"Techno, Drone y Electrónica Modular Mexicana"',
     source: 'MixMag México',
     url: 'https://content.yudu.com/web/44iu0/0A44iu1/MexicoSEPTIEMBRE22/html/index.html?page=58&origin=reader',

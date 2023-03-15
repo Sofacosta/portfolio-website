@@ -16,7 +16,7 @@ const Home = () => {
           className="fancy-text text-3xl"
           to="https://coast2c.bandcamp.com/album/machine-music-human-dance"
         >
-          Pre-order Machine Music, Human Dance on Bandcamp now!
+          Machine Music, Human Dance on Bandcamp now!
         </Link>
       </h2>
       <Slide responsive>
