@@ -37,6 +37,15 @@ export const releases = [
   },
   {
     altText: '',
+    buyUrl: 'https://bedofrosesentertainment.bandcamp.com/album/a-new-age-cat',
+    releaseDate: new Date('11/8/2022'),
+    htmlDescription:
+      '<p class="justify-center">The debut EP from Wormbox "A New Age Cat" with remixes from Coast2c and Thomass Jackson out via Bed of Roses</p>',
+    originalImg: '/assets/images/wormbox.png',
+    title: 'The Defender of Heaven (Coast2c Remix) [Bed of Roses]',
+  },
+  {
+    altText: '',
     buyUrl: 'https://tutu.bandcamp.com/album/de-tu-a-tu-rmxs',
     releaseDate: new Date('04/18/2022'),
     htmlDescription:
