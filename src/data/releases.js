@@ -37,7 +37,7 @@ export const releases = [
   },
   {
     altText: '',
-    buyUrl: 'https://www.beatport.com/release/de-tu-a-tu-rmxs/3672173',
+    buyUrl: 'https://tutu.bandcamp.com/album/de-tu-a-tu-rmxs',
     releaseDate: new Date('04/18/2022'),
     htmlDescription:
       '<p class="justify-center">Edgar de Ramon’s highly acclaimed debut LP – De Tu A Tu – came out last year under his established TUTU Records. De Tu A Tu is comprised of 8 tracks of ambient-leaning, sci-fi-inspired techno with a lot of Detroit and Acid influences. A year has passed since its release, and the follow-up remixes album is here. De Tu a Tu Remixes – Every original got its remix treatment by 8 artists sharing Edgar’s vision of fresh, innovative, and gnarly techno. Matrixxman, Tensal, Christina Sealey, Camea, Coast2C, Balfa, Gimenö and The Tunegirl, take De Tu A Tu’s techno palette into a whole new level of fierce and mechanical grooves. A perfectly-crafted project by the man behind TUTU Records..</p><br><p class="mx-auto justify-center py-4">Press:</p><ul><li><a href="https://mixmag.es/read/edgar-de-ramon-presenta-el-remix-de-balfa-para-su-deeper-underground-news" rel="noreferrer" target="_blank">MixMag Spain</a></li><li><a href="https://living-techno.com/16971/" rel="noreferrer" target="_blank">Living Techno</a><li><a href="https://viciousmagazine.com/news/edgar-de-ramon-presenta-los-remixes-de-de-tu-a-tu/" rel="noreferrer" target="_blank">Vicious Magazine</a></li></ul>',
