@@ -1,5 +1,11 @@
 export const videos = [
   {
+    title: 'Polymorphism',
+    url: 'https://www.youtube.com/watch?v=lMWASTduN78',
+    description:
+      'Video by Coast2c using AI to create generative visuals. The track is part of her latest EP Machine Music, Human Dance.',
+  },
+  {
     title: 'Modular World',
     url: 'https://www.youtube.com/watch?v=7Gx6aCv0OqA',
     description:
