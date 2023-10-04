@@ -22,10 +22,11 @@ const Nav = () => {
         closeMenu={() => setIsOpen(false)}
         path={path}
         name={name}
-        children={children}
         key={name}
         isDesktop={isDesktop}
-      />
+      >
+        {children}
+      </NavItem>
     );
   });
   const desktopNav = (

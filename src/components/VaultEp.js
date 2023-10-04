@@ -16,7 +16,11 @@ const VaultEp = () => {
           Buy | Listen
         </Link>
       </div>
-      <img class="my-12" src="/assets/images/Vault_cover.png" alt="VaultEP" />
+      <img
+        className="my-12"
+        src="/assets/images/Vault_cover.png"
+        alt="VaultEP"
+      />
       <div>
         <p className="text-white justify-center">
           Vault starts with an hypnotic acid drone piece with “Bones”, a

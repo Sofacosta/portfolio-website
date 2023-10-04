@@ -1,13 +1,26 @@
 module.exports = {
-  $schema: 'http://json.schemastore.org/eslintrc',
-  extends: 'eslint:recommended',
-  files: ['*.js', '*.jsx'],
+  env: {
+    browser: true,
+    es2021: true,
+    node: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:prettier/recommended',
+  ],
   parserOptions: {
+    ecmaVersion: 12,
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 'latest',
-    sourceType: 'module',
   },
-  rules: {},
+  plugins: ['prettier', 'react', 'react-hooks'],
+  rules: {
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': 'error',
+  },
 };

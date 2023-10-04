@@ -9,8 +9,13 @@ function Video(props) {
     <>
       <hr className="mb-12" />
       <h3 className="text-white text-3xl mb-4">{title}</h3>
-      <div className='player-wrapper'>
-        <ReactPlayer className='react-player' width="100%" height="100%" url={url} />
+      <div className="player-wrapper">
+        <ReactPlayer
+          className="react-player"
+          width="100%"
+          height="100%"
+          url={url}
+        />
       </div>
       <p className="text-white mt-6 mb-12">{ReactHtmlParser(description)}</p>
     </>

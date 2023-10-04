@@ -1,6 +1,6 @@
 <div align="center">
 
-## Portfolio Website 
+## Portfolio Website
 
 </div>
 
@@ -8,9 +8,11 @@
 <h4 align="center"> By Sofia Acosta</h4>
 
 ## Description
+
 This is a work in progress personal artist website.
 
 ## Setup/Installation Requirements
+
 - Clone the repo `git clone https://github.com/Sofacosta/portfolio-website`
 - Install node modules `npm install`
 - Start the application `npm run start`
@@ -20,7 +22,7 @@ This is a work in progress personal artist website.
 - React
 - Javascript
 - Tailwind
-- Node Package Manager 
+- Node Package Manager
 - HTML
 - CSS
 - React-router
@@ -30,6 +32,7 @@ This is a work in progress personal artist website.
 - React Flip Card
 
 ## MVP UI Diagram
+
 ![Screen Shot 2021-09-10 at 12 47 05 PM](https://user-images.githubusercontent.com/76922539/132920907-dbfc4bf4-185d-403f-95bb-23cf76f3a978.png)
 
 ### License

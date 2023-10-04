@@ -1,8 +1,7 @@
 nav li {
- display: block;
- position: relative;
- transition-duration: 0.5s;
- 
+  display: block;
+  position: relative;
+  transition-duration: 0.5s;
 }
 
 nav li a {

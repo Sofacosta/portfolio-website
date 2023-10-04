@@ -4,21 +4,22 @@ body {
   background-color: #212121;
 }
 
-html, body {
+html,
+body {
   font-family: 'IBM Plex Sans', sans-serif;
-  color: #C8C8C8;
+  color: #c8c8c8;
 }
 
 p {
-  color: #C8C8C8;
+  color: #c8c8c8;
   font-size: 1.2rem;
   line-height: 1.9rem;
 }
 
 a {
-  color: #C8C8C8;
+  color: #c8c8c8;
   text-decoration: underline;
-  transition: filter ease-in-out .25s;
+  transition: filter ease-in-out 0.25s;
 }
 
 a:hover {

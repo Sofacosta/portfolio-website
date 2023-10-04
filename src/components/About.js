@@ -28,8 +28,8 @@ const About = () => {
         </p>
 
         <p className="text-white justify-center py-4">
-          Coast2c's work includes sound design and music production. Her music
-          has been released on a variety of labels including{' '}
+          Coast2c&apos;s work includes sound design and music production. Her
+          music has been released on a variety of labels including{' '}
           <a
             href="https://faunareve.com/album/morphism-incl-coast2mago-remix"
             target="_blank"
