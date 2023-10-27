@@ -1,5 +1,15 @@
 export const pressItems = [
   {
+    title: '" Otro de los highlights lo vimos gracias a Live Ephemeral "',
+    source: 'Warp',
+    url: 'https://warp.la/warp-en-mutek-mx-nocturne-360-presentado-kia-mexico/',
+  },
+  {
+    title: '" 10 actos que tienes que ver en MUTEKMX 2023"',
+    source: 'TimeOut México',
+    url: 'https://www.timeoutmexico.mx/ciudad-de-mexico/musica/10-actos-que-tienes-que-ver-en-mutek-mx-2023',
+  },
+  {
     title:
       '"12 Emerging Artists You Need To Hear: March 2023" Whether in an art gallery or a club, Sofia Acosta, aka Coast2c, knows how to get people moving. A producer and sound artist from Mexico City..."',
     source: 'DJ MAG',
